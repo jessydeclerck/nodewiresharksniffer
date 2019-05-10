@@ -1,0 +1,17 @@
+{
+  "name": "nodejstsharkreader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^9.0.6",
+    "lodash": "^4.17.11",
+    "oboe": "^2.1.4",
+    "parse": "^2.1.0"
+  }
+}
