@@ -2,8 +2,9 @@ const { spawn } = require("child_process");
 const oboe = require("oboe");
 const _ = require("lodash");
 const axios = require("axios");
-import { readMsgId } from "./payloadReader";
-import { msgIds, msgName } from "./neededMsg";
+const readMsgId = require("./payloadReader").readMsgId;
+// import { readMsgId } from "./payloadReader";
+const msgIds = require("./neededMsg").msgIds;
 /**
  * on Linux, Unix, *BSD you can use
 
@@ -46,17 +47,15 @@ tsharkProcess.on("error", err => {
 oboe(tsharkProcess.stdout).node("layers", async data => {
   let srcport = data["tcp.srcport"];
   let payload = data["tcp.payload"];
-  console.log(`src port ${srcport}`);
   if (payload) {
     let dataPayload = payload[0].replace(/:/g, "");
     let msgId = readMsgId(dataPayload);
     if (!msgIds.includes(msgId)) return;
     let context = getContext(srcport);
-    let decodedMessage = decodePayload(payload, context);
-    console.log(`${decodedMessage}`);
+    let decodedMessage = await decodePayload(dataPayload, context);
+    console.log(decodedMessage);
   }
 
-  console.log("\n");
 });
 
 tsharkProcess.stderr.pipe(process.stdout);
@@ -70,11 +69,10 @@ async function decodePayload(payload, context) {
   try {
     response = await axios.post(
       "https://webd2decoder.herokuapp.com/decoder/".concat(context),
-      dataPayload
+      payload
     );
-    console.log(`${response.data}`);
   } catch (err) {
-    console.error(`error ${dataPayload}`);
+    console.log(`error ${payload}`);
   }
   return response.data;
 }
