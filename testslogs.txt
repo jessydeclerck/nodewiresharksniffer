@@ -3383,3 +3383,6155 @@ error 038a11d40a4195081c5c0000000000001700244254e33500340000003c01810101000650d0
   ],
   subAreaId: 10
 }
+Capturing on 'any'
+{ __type__: 'TreasureHuntGiveUpRequestMessage', questType: 0 }
+{ __type__: 'TreasureHuntFinishedMessage', questType: 0 }
+error 038a06630a4195081c580000000000000c0024425f513e80340000003c001202800e0000000401bfd30b02c1d00d03f7f7b20400ff00000000010200020006299410a50fd117d217d317000901b7a30a02a8a50003bfd30b04c1d00d05f7f7b207ffe83e08fd280b09cc3b040aedab2300019b010000000a42657374636861646f77009d00080001000201998d12000a4c6573204879656e6573511600fd280b0a00ffe83e01a9840400055350515231000453505152db0100edab230500cc3b040007d38cab000000425f513e805cc0000024425ee46c80340000003c00280101000350d010ef01000701ffd27c02f9922b03ffffe1042c677005de32070700000008f9473200018c01000101008802000000000001500000000a4b6c617368696e6b6f76009d0008000000010199e280010013457965206f662074686520416e6369656e74732be10100f94732100000000007736237000000425ee46c803940000024424e097380680000003c00fb04ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3888000000000003c018b07fc04000000000000000000008c000001ec03000d0004000001eb03000dae030000000000000000000000ec04000efe040000000000000000000001ed01000bfd040000000000000000000001ed01000bfd040000000000000000ffff00a0c0d3884000000000003c00d303fb04000000000000000000008c000001ea05000f0003000001eb03000dae030000000000000000000001ea05000ffb040000000000000000000001ea04000efb040000000000000000ffff00a0c0d3880000000000003c021e03fc04000000000000000000008c000001ec05000f0001000001eb05000fae030000000000000000ffff0081425fb71a80340000003c0059010100053dbb10ce198d17f41c0005018d472c02210f0703c21a3c04c96f1d05e15e300001960100020100e60f00000005018d472c02210f0703c21a3c04c96f1d05e15e30000000000500ed0100000005018d472c02210f0703c21a3c04c96f1d05e15e30000000000008416c6c2d53686f700000000081425f306f40340000003c003f0301000264f31000050182471f027c930303dbc46d04dbc46d05b6823c0001960100010500ed01000000050182471f027c930303dbc46d04dbc46d05b6823c00000000000b50616e6472612d4865637400000000814256b7a480340000003c00f10301000315f90f8802000501ffba5002f6ef650304030004f0000005cd0d0800017d00010500ed010000000501ffba5002f6ef650304030004f0000005cd0d080000000000084572626f2d6f6e650000000081425fa75080340000003c0049020100026f841100050125211802eec131036e613704bb972605f1d47a00018c0100010500ed01000000050125211802eec131036e613704bb972605f1d47a00000000000b476172642d46656c696f73000000008142351e2600d00000003c00400101000450d0108218ab01000901ffd27c02f9922b03ffffe1042c677005de320707ae407a08cb0734090000000af1bd1b00018c0100010500ed010000000901ffd27c02f9922b03ffffe1042c677005de320707ae407a08cb0734090000000af1bd1b000000000007456361726d656c0100020199cc730012546120736f657572206a65206c2761696d6514920100cb07340100ae407a01a9f80b0003544f52000c546f7574204f75205269656e1900f1bd1b080000000000008142546c7280340000003c00ad010100089e0bb611ac0dd41cfb1db718a51b990c000901ffd27c02d4f8f503b7d6ce0424596705868f910700000008c0c0c109e8f6080a3874070001910100020100e70f0000000901ffd27c02d4f8f503b7d6ce0424596705868f910700000008c0c0c109e8
+error 038a12fb0a4195081c5c000000000000170024425f861f40340000003c01b001010002eb18ef180009010d0d0d02141414031212120418181805000000073b3b3c0802000009ffffff0a7b92f90001910100000009497a692d5473756b65009d0008000000020199cb12000f536563726574204469766973696f6ec8c6020002000008003b3b3c01a9931800044e455854000b416e74692d53637265656e75007b92f92200ffffff1505351164020700425f861f406600000024425fc52ec0340000003c01e60101000650d010d20bbf0bdb09bf1a000901040200020000000304040004000000050401000700040408faff0109ffffff0a7b92f900018c0100010100b72700000000000150000000074d61616f6f7768009d0008000000030199d08201000e42616420426f792046616d696c794adb0100faff01170000040401a9931800044e455854000b416e74692d53637265656e75007b92f92200ffffff00019b0fce01ffff03ffffffff051906e9000000425fc52ec066000000244248975a00680000003c0176010100060be40fac0dc51e9c0bb718000901f5b95f02262a330354000004262a3305caa13b0700030308ffffff092b21380af1cc5c00017d00010100e60f0000000901f5b95f02262a330354000004262a3305caa13b0700030308ffffff092b21380af1cc5c00000000000a54696368756e65737365009d0008000100040199af1e000c4a75737420666f722066756ec23d00ffffff200000030301a9e71700044b4f5250000f446965204b6f72706f726174696f6ef80100f1cc5c08002b2138000198aa010000019b41db01ffff03ffffffff01cbab700153004248975a00cc00000024424eec7880680000003c01680101000651d710cb1cd41c8d1ed904000901f5b95f02eef5950307505504eef59505084e550700030308ffffff092b21380af1cc5c00018c0100010100fa16000000000000000000064d656c6c6f6f009d0008000100040199af1e000c4a75737420666f722066756ec23d00ffffff200000030301a9e71700044b4f5250000f446965204b6f72706f726174696f6ef80100f1cc5c08002b21380001984f0000019b32e002ffff03ffffffff019b1b9f022900424eec7880cc00000024425ec9aa80340000003c01710101000647ca10f008dc089b1d981c000901e3b664022f234003e3e0d5042f2340052f234007e7fdf50806270e091127340affe56600017300010100e70f0000000901e3b664022f234003e3e0d5042f2340052f234007e7fdf50806270e091127340affe56600015a0000000645786f7a6173009d0008000100040199ea6500094c6f73205a657461737f210006270e0800e7fdf501a9821400045056504a0015537461697277617920746f2047726561746e657373ae0100ffe5660800112734000198fc010000019b708c022500000046075d6bda000000425ec9aa8066000000244245a7bd00680000003c015601ff040000000401e3e0d5022f2340032f2340047664430001780001020002000650d010f008dc089b1dbe04000901e4b76a022f234003e3e0d5042f2340052f234007e7fdf50806270e091127340affe56600018c010000000645786f7a7573009d0008000000040199ea6500094c6f73205a657461737f210006270e0800e7fdf501a9821400045056504a0015537461697277617920746f2047726561746e657373ae0100ffe5660800112734000198fc010000019b4cde0225000000470528c9530164004245a7bd00cc000000244246d4fc00680000003c00f0010100066f8511fe08801ef41bbc1a000901000000020000000300000004ffffff05ffffff0700000208ffffff090000000a00000000018c0100010100d61800000000000000000004426f6173009d0008000100040199d67900054c6f6d656e4e3f00ffffff080000000201a984170003544843000f4465726e69657265204368616e63659c010000000008000000000b019893010000019b0fd901ffff03ffffffff01
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 49173649,
+      alignmentInfos: [Object],
+      contextualId: 180701954256,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Industri'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 95064280,
+      alignmentInfos: [Object],
+      contextualId: 209880350928,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Voxhel'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 48114590,
+      alignmentInfos: [Object],
+      contextualId: 370504761552,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Harkenge'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      421, 434, 435,
+      449, 450, 463,
+      464, 478, 479,
+      492, 493, 507
+    ],
+    positionsForDefenders: [
+       25,  39,  40,
+       54,  66,  69,
+       79,  82,  94,
+      108, 109, 123
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 517202,
+      elementTypeId: 16,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 142087694,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 341,
+      elementId: 517048,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 313,
+      elementId: 517202,
+      elementState: 0,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 68
+}
+error 038a06114441a0f0301c0000000000000a0024424e097380680000003c014200ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b20000009cc0d3880000000000003c00b2030100040adc0fd508860b000501ffd27c026c4f2d03f3ba3004ae6615056c4f2d00017d00010100c608000000000001500000c90a000000a0c0d388c000000000003c01bc03d702000000000001aa01000000008c0000012604003c0007000011c3010033c31c0000000000000000000011c3020035c31c0000000000000000000011c3010033c31c0000000000000000000011c3030037c31c0000000000000000000011c404003ec21c0000000000018c0100000000012604003cd702000000000001aa010000000011c3040039c31c0000000000000000ffff00a0c0d3888000000000003c00ef01d702000000000001aa01000000008c0000012605003e0002000011c402003ac21c0000000000018c010000000011c3040039c31c0000000000000000ffff00a0c0d3884000000000003c01ee01c31c000000000000000000008c000011c304003900010000012005003c9f020000000000016e0000ffff0081423416a800d00000003c00e303f62a00000004016d000002ffffff036c01030400ff000000000202000200086f8911c31ec51ec21e981ca51b960c0009019fa8af029d533d036d000004ffffff056c010307000000081f20ba09ffffff0a8b92bc00018c0100000500ed0100000004016d000002ffffff036c01030400ff0000000000000c58792d6b7972697368696b690300020199c307000b554b462044756273746570c80f001f20ba080000000001a9d3160003514254000e4c6520517561727465726261636b21008b92bc0800ffffff000081425fa04780340000003c0091030100081efc0fb40df8139807a41bd714ca0c000901eac06202ffffff03701f0b04fff50005701f0b07701f0b08fff50009701f0b0afff50000017800020100941500000000000000000500ed010000000901eac06202ffffff03701f0b04fff50005701f0b07701f0b08fff50009701f0b0afff5000000000000114d67652d467261676d656e742d53686f700000020199ae6b000c4d676520427573696e6573736a4300fff5000800701f0b01a9dc1600034d474500114d474520456e7465727461696e6d656e744e00fff5002000701f0b000081425f461d00340000003c013d030100065bea10ca1c871edd1c881e000901ffc36702b7b7b803a8000304a40003058e000207000000088d6f1b090104050afcf7ef0001870100010500ed010000000901ffc36702b7b7b803a8000304a40003058e000207000000088d6f1b090104050afcf7ef00000000000b4165726f7a78617572656c03000201999e6a00064d656d6f7279468001008d6f1b180000000001a98602000354654100144465626175636865727920546561205061727479db0100fcf7ef0f0001040500008142215d0a01a00000003c01d3010100050be70fcf1cd81ce61c000901eeb06f027ed0f103ffffff0417547a050bb6dd07ffffff082eacbe09fefdfa0aeba71900017d00020100d21f0000000000016e00000500ed010000000901eeb06f027ed0f103ffffff0417547a050bb6dd07ffffff082eacbe09fefdfa0aeba7190000000000075468726577656e0000020199952c000d456c656d656e742d5b56696c5d5f8701002eacbe1500ffffff01a9e206000456616c68000856616c68616c6c61e40100eba7191200fefdfa0000814244432980680000003c018c0301000550d010ac0d980df313000501ffd27c02f0e20c03ffffff04ffffff05ffffff00018c0100020100b00900000000000000000500ed010000000501ffd27c02f0e20c03ffffff04ffffff05ffffff00000000000a47686f73742d5374
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 133755904,
+      alignmentInfos: [Object],
+      contextualId: 542438588624,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Varrector-bombe'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 94117653,
+      alignmentInfos: [Object],
+      contextualId: 69487427792,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Psykiia-Roxxor'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 57032245456,
+      disposition: [Object],
+      look: [Object],
+      name: 'La-Malice',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 344768774352,
+      disposition: [Object],
+      look: [Object],
+      name: 'Hsi-Misstisacri',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 540871426256,
+      disposition: [Object],
+      look: [Object],
+      name: 'Mge-Carte-Shop',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 545939718352,
+      disposition: [Object],
+      look: [Object],
+      name: 'Sheirow',
+      options: [],
+      sellType: 3
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 539361870032,
+      disposition: [Object],
+      look: [Object],
+      name: 'Lexisdechibot',
+      options: [],
+      sellType: 3
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      394, 397, 408,
+      410, 423, 424,
+      451, 452, 464,
+      466, 478, 481
+    ],
+    positionsForDefenders: [
+      395, 396, 409,
+      422, 425, 436,
+      438, 450, 453,
+      465, 479, 480
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 506454,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 486028,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [Array],
+      elementId: 506443,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 142088718,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 239,
+      elementId: 506454,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 102,
+      elementId: 506443,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      342, 369, 370,
+      371, 396, 397,
+      399, 400, 425,
+      426, 427, 454
+    ],
+    positionsForDefenders: [
+      355, 356, 382,
+      383, 384, 385,
+      410, 411, 412,
+      413, 439, 440
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505622,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484927,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128451073,
+  obstacles: [],
+  statedElements: [],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 42069364,
+      alignmentInfos: [Object],
+      contextualId: 87970414800,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Akuna-matata'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 39014239,
+      alignmentInfos: [Object],
+      contextualId: 534138978512,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Ultime-mort'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 47673963,
+      alignmentInfos: [Object],
+      contextualId: 525947306192,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Silv-sword'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20002,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2348,
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcWithQuestInformations',
+      contextualId: -20003,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2345,
+      questFlag: [Object],
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20001,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2347,
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2346,
+      sex: true,
+      specialArtworkId: 0
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      375, 388, 389,
+      403, 429, 442,
+      443, 457, 483,
+      496, 497, 511
+    ],
+    positionsForDefenders: [
+      187, 201, 202,
+      215, 241, 255,
+      256, 269, 295,
+      309, 310, 323
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505623,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 485495,
+      elementTypeId: 236,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 485497,
+      elementTypeId: 237,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505624,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484993,
+      elementTypeId: 231,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128452097,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 398,
+      elementId: 485495,
+      elementState: 0,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 68
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 0,
+  checkPointTotal: 4,
+  flags: [],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 0,
+      poiLabelId: 650
+    }
+  ],
+  questType: 0,
+  startMapId: 88213262,
+  totalStepCount: 4
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      342, 369, 370,
+      371, 396, 397,
+      399, 400, 425,
+      426, 427, 454
+    ],
+    positionsForDefenders: [
+      355, 356, 382,
+      383, 384, 385,
+      410, 411, 412,
+      413, 439, 440
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505622,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484927,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128451073,
+  obstacles: [],
+  statedElements: [],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 133755904,
+      alignmentInfos: [Object],
+      contextualId: 542438588624,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Varrector-bombe'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 94117653,
+      alignmentInfos: [Object],
+      contextualId: 69487427792,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Psykiia-Roxxor'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 57032245456,
+      disposition: [Object],
+      look: [Object],
+      name: 'La-Malice',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 344768774352,
+      disposition: [Object],
+      look: [Object],
+      name: 'Hsi-Misstisacri',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 540871426256,
+      disposition: [Object],
+      look: [Object],
+      name: 'Mge-Carte-Shop',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 545939718352,
+      disposition: [Object],
+      look: [Object],
+      name: 'Sheirow',
+      options: [],
+      sellType: 3
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 539361870032,
+      disposition: [Object],
+      look: [Object],
+      name: 'Lexisdechibot',
+      options: [],
+      sellType: 3
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      394, 397, 408,
+      410, 423, 424,
+      451, 452, 464,
+      466, 478, 481
+    ],
+    positionsForDefenders: [
+      395, 396, 409,
+      422, 425, 436,
+      438, 450, 453,
+      465, 479, 480
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 506454,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 486028,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [Array],
+      elementId: 506443,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 142088718,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 239,
+      elementId: 506454,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 102,
+      elementId: 506443,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 68
+}
+error 038a07390541950024400000000000000300244242d1f080680000003c012c040100066f8411fa0cf81cd21dae1d000501fcc37102772e050383000f04e66f8105ffffff00018c0100010100cb1f0000000000016e0000000553696c6b79009d000800010003019a00000198ab010000019b62b202ffff03ffffffff01a666f60164004242d1f080cc00000024425fc6f140340000003c014f0401000651d410c11cc01cbf1cce04000501f5b95f02d6d46a03ffffe1041d1d1d052f2f2f00018c010000000e5473756e6164652d4f6e6573616e009d000800010000039b96b1000000425fc6f1403900000024424e097380680000003c011301ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b20000002f018e0007344200000026000100db2d05aa2d2b0000010000005000072303000000010000000100db0605aa2d1701018e0007230600000001000100db0605aa2d1f0000010000005000072309000000010000000100db0605aa2d240100500007230c000000010000000100db0605aa2d2801018e0007230e000000430000000100db4705aa2d29010000005000072304000000010000000100db0605aa2d1901005000072307000000010000000100db0605aa2d200100500007230a000000010000000100db0605aa2d2501018e00079138000000ff0000000100db4505aa2d2c010000005000072305000000010000000100db0605aa2d1c01005000072308000000010000000100db0605aa2d220100500007230b000000010000000100db0605aa2d270100500007e43200000010000100db7205aa2d2e000001018e0007a14c000000270000000100db2e05aa2ff5000000018e0007a14b000000270000000100db2e05aa2ff3000000018e000729480000002d0000000100db3905aa304b0000000050000729970000002d0000000100db3905aa305600018e0007a15d000000270000000100db2e05aa300a00000000500007345c000000010000000100db0605aa2d0300018e0007345b000000210000000100db2705aa2cff00000100500007341b000000010000000100db0605aa2a520000500007345a000000010000000100db0605aa2cfd00005000073459000000010000000100db0605aa2cf900005000073419000000010000000100db0605aa2a4f00018e000729980000002d0000000100db3905aa305b000000005000073458000000010000000100db0605aa2cf700018e000726a70000002d0000000100db3905aa304a000000018e000726a60000002d0000000100db3905aa30210000000050000726a40000002d0000000100db3905aa301f00018e0007342400000001000100db0605aa2a620000000000005000073423000000010000000100db0605aa2a6000018e0007a162000000270000000100db2e05aa300f000000005000073420000000010000000100db0605aa2a5a000050000726af0000002d0000000100db3905aa303200018e000726ae0000002d0000000100db3905aa302f0000000050000779ae000000fe0000000100db4405aa306000018e000726ad0000002d0000000100db3905aa302c000000018e000726ac0000002d0000000100db3905aa302b0000000050000726ab0000002d0000000100db3905aa302a000050000726aa0000002d0000000100db3905aa302700018e000726a80000002d0000000100db3905aa30220000000050000726b30000002d0000000100db3905aa3036000050000726b20000002d0000000100db3905aa3035000050000726b10000002d0000000100db3905aa3034000050000726b00000002d0000000100db3905aa303300005000073179000000010000000100db0605aa2a3600003000073442fa010001000723030f010100072306380001000723096101010007230c86
+error 038a0a3c034195002c40000000000000060024425fb46b40340000003c02160601000650d110f7016842ff040005017154180291e607034c66210470b30505afeb4d00018c0100010100fe0b0000000000015a000000065479736f7a65009d0008000000010198c50100000741f022000000425fb46b404340000024424e097380680000003c008c00ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d388c000000000003c007301ba01000000000000000000008c00000326050028000500000326010020ba01000000000000000000000326040026ba01000000000000000000000324050028c206000000000000000000000324030024c206000000000000000000000062030024ac040000000000016e0000ffff00a0c0d3888000000000003c002705ac040000000000016e000000008c00000062020022000200000324030024c206000000000000000000000324030024c2060000000000000000ffff00a0c0d3884000000000003c010c07f50300000000000150000000008c000012d8020022000100000326010020ba010000000000000000ffff00a1c0d3880000000000003c01e001a3110001e315000301c2e5ee090104050afcf7ef0000000001ab01015da0df405d871ab6218602000354654100144465626175636865727920546561205061727479db0100fcf7ef0f0001040500400050000726b10000002d0000000100db3905aa3034010050000779af000000fe0000000100db4405aa306201018e000726a70000002d0000000100db3905aa304a010000018e000729480000002d0000000100db3905aa304b010000018e000726a80000002d0000000100db3905aa30220100000050000726a40000002d0000000100db3905aa301f01018e000727370000002d0000000100db3905aa303a0100000050000726b30000002d0000000100db3905aa30360100500007294e0000002d0000000100db3905aa30510100500007273a0000002d0000000100db3905aa304101018e000729990000002d0000000100db3905aa30580100000050000726aa0000002d0000000100db3905aa302701018e000726ad0000002d0000000100db3905aa302c010000018e000726b00000002d0000000100db3905aa30330100000050000779ae000000fe0000000100db4405aa3060010050000727360000002d0000000100db3905aa30370100500007294d0000002d0000000100db3905aa304e01018e000727390000002d0000000100db3905aa3040010001018e000729980000002d0000000100db3905aa305b0100000050000729500000002d0000000100db3905aa305401018e0007273c0000002d0000000100db3905aa3048010000018e000726ac0000002d0000000100db3905aa302b0100000050000726af0000002d0000000100db3905aa3032010050000726b20000002d0000000100db3905aa303501018e000726a60000002d0000000100db3905aa30210100000050000727380000002d0000000100db3905aa303e010050000729970000002d0000000100db3905aa30560100500007294f0000002d0000000100db3905aa30530100500007273b0000002d0000000100db3905aa304401018e000726ab0000002d0000000100db3905aa302a010000018e000726ae0000002d0000000100db3905aa302f0100000050000779ad000000fe0000000100db4405aa305e01018e0007a147000000270000000100db2e05aa2feb000000018e0007a146000000270000000100db2e05aa2fe9000000018e0007a145000000270000000100db2e05aa2fe7000000005000072305000000010000000100db0605aa2d1c00018e0007a144000000270000000100db2e05aa2fe5000000005000072304000000010000000100db0605aa2d19
+error 038a0789034195002c44000000000000040024424e097380680000003c021706ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3884000000000003c021701ba01000000000000000000008c0000032605002800030000031c040026f30300000000000178000000000326050028ba01000000000000000000000326020022ba010000000000000000ffff00a0c0d3880000000000003c011007ba01000000000000000000008c00000326050028000100000326030024ba010000000000000000ffff00a0c0d3888000000000003c01ab01c206000000000000000000008c00000324050028000700000326040026ba0100000000000000000000031c010020f30300000000000178000000000326050028ba01000000000000000000000326020022ba01000000000000000000000326040026ba01000000000000000000000326050028ba01000000000000000000000324040026c2060000000000000000ffff003000500007a1140000002b0000000100db3505aa306801018e0007260800000026000100db2d05aa307e000001000000500007a32b000000260000000100db2d05aa30a50100500007a1170000002b0000000100db3505aa306b0100500007260b000000260000000100db2d05aa30800100500007a11a0000002b0000000100db3505aa306f0100500007a11d0000002b0000000100db3505aa30740100500007a1200000002b0000000100db3505aa307701005000072614000000260000000100db2d05aa30860100500007a1230000002b0000000100db3505aa307a01005000072617000000260000000100db2d05aa30a30100500007a1100000002b0000000100db3505aa30640100500007a1130000002b0000000100db3505aa306701005000072607000000260000000100db2d05aa30820100500007a32a000000260000000100db2d05aa30a40100500007a1160000002b0000000100db3505aa306a01018e0007260a00000026000100db2d05aa3084000001000000500007a1190000002b0000000100db3505aa306e0100500007a11c0000002b0000000100db3505aa30720100500007a11f0000002b0000000100db3505aa307601005000072613000000260000000100db2d05aa309d0100500007a1220000002b0000000100db3505aa307901018e0007261600000026000100db2d05aa3096000001000000500007a10f0000002b0000000100db3505aa30630100500007a1120000002b0000000100db3505aa306601018e0007260600000026000100db2d05aa308b000001000000500007a1150000002b0000000100db3505aa30690100500007a32c000000260000000100db2d05aa30a60100500007a1180000002b0000000100db3505aa306c0100500007260c000000260000000100db2d05aa309c0100500007a11b0000002b0000000100db3505aa30710100500007a11e0000002b0000000100db3505aa307501005000072612000000260000000100db2d05aa30a10100500007a1210000002b0000000100db3505aa307801005000072615000000260000000100db2d05aa30920100500007a1240000002b0000000100db3505aa307c0100500007a1110000002b0000000100db3505aa306501018e000727370000002d0000000100db3905aa303a0000000050000727360000002d0000000100db3905aa303700005000072305000000010000000100db0605aa2d1c00005000072304000000010000000100db0605aa2d19000050000737c3ffffffff0000000000018e000779bc000000ff0000000100db4505aa279d0000000050000779bb000000fe0000000100db4405aa279800018e000727390000002d0000000100db3905aa3040000001005000072309000000010000000100db0605aa2d24
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       48,  63,  77,
+       89, 103, 118,
+      143, 157, 172,
+      183, 198, 212
+    ],
+    positionsForDefenders: [
+      341, 354, 355,
+      368, 369, 381,
+      382, 395, 396,
+      408, 409, 423
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 489917,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 489914,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 489916,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 489913,
+      elementTypeId: 254,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 500553,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 489915,
+      elementTypeId: 254,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 500552,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500004,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500002,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500481,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500001,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499983,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 469737,
+      elementTypeId: 47,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468791,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499991,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468790,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499990,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468820,
+      elementTypeId: 44,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468819,
+      elementTypeId: 44,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499987,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499986,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499984,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499998,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499997,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499996,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499995,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499994,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468793,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499993,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468792,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083729,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 467,
+      elementId: 489917,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 166,
+      elementId: 489914,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 337,
+      elementId: 489916,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 152,
+      elementId: 489913,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 440,
+      elementId: 500553,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 324,
+      elementId: 489915,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 217,
+      elementId: 500552,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 401,
+      elementId: 500004,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 374,
+      elementId: 500002,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 337,
+      elementId: 500481,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 373,
+      elementId: 500001,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 275,
+      elementId: 499983,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 340,
+      elementId: 469737,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 109,
+      elementId: 468791,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 320,
+      elementId: 499991,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 96,
+      elementId: 468790,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 318,
+      elementId: 499990,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 113,
+      elementId: 468820,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 98,
+      elementId: 468819,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 304,
+      elementId: 499987,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 303,
+      elementId: 499986,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 291,
+      elementId: 499984,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 347,
+      elementId: 499998,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 345,
+      elementId: 499997,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 334,
+      elementId: 499996,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 333,
+      elementId: 499995,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 332,
+      elementId: 499994,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 138,
+      elementId: 468793,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 331,
+      elementId: 499993,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 124,
+      elementId: 468792,
+      elementState: 1,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 3
+}
+error 038a06c8034195003440000000000000030024424e097380680000003c000502ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3888000000000003c01e501ac040000000000016e000000008c00000062040026000600000326020022ba01000000000000000000000326020022ba01000000000000000000000324040026c2060000000000000000000012d8040026f50300000000000150000000000326050028ba01000000000000000000000062010020ac040000000000016e0000ffff00a0c0d3884000000000003c021801ba01000000000000000000008c0000032603002400020000031c010020f303000000000001780000000012d8040026f503000000000001500000ffff002c005000072716000000270000000100db2e05aa278101005000072719000000270000000100db2e05aa278401018e0007271c000000270000000100db2e05aa278701000000500007271f000000270000000100db2e05aa278a01018e00072722000000270000000100db2e05aa278d010000005000072714000000270000000100db2e05aa277f01005000072717000000270000000100db2e05aa278201018e0007271a000000270000000100db2e05aa278501000000500007271d000000270000000100db2e05aa278801018e00072720000000270000000100db2e05aa278b010000005000072723000000270000000100db2e05aa278e01018e00079bb4000000430000000100db4705aa2790010000018e00072715000000270000000100db2e05aa2780010000005000072718000000270000000100db2e05aa27830100500007271b000000270000000100db2e05aa27860100500007271e000000270000000100db2e05aa278901018e00072721000000270000000100db2e05aa278c010000018e00072724000000270000000100db2e05aa278f0100000050000729830000002c0000000100db3405aa2a7d00018e0007a34100000001000100db0605aa27520000000001018e000727410000002a0000000100db3205aa2757000001018e000727400000002a0000000100db3205aa27550000010050000727540000002c0000000100db3405aa2a8300005000075fd3ffffffff000100dbb80105aa2a810000000050000727530000002c0000000100db3405aa2a82000050000729500000002d0000000100db3905aa3054000050000727670000002c0000000100db3405aa2a78000050000727660000002c0000000100db3405aa2a77000050000779af000000fe0000000100db4405aa3062000050000779ad000000fe0000000100db4405aa305e0000500007276a0000002c0000000100db3405aa2a7b000050000727690000002c0000000100db3405aa2a7a000050000727680000002c0000000100db3405aa2a7900018e000727370000002d0000000100db3905aa303a0000000050000727360000002d0000000100db3905aa303700018e0007273f0000002a0000000100db3205aa277b000001018e0007273e0000002a0000000100db3205aa2753000001018e0007273d0000002a0000000100db3205aa277a000001018e0007a13c000000270000000100db2e05aa2fd4000000018e0007273c0000002d0000000100db3905aa304800000000500007273b0000002d0000000100db3905aa30440000500007273a0000002d0000000100db3905aa304100018e000727390000002d0000000100db3905aa30400000010050000727380000002d0000000100db3905aa303e00002b0007271682020101000727198f0201010007271c9202000100079bb4fd03000100072722bb02000100072714e701010100072717830201010007271a900200010007271d9d02010100072720ab02000100072723c70201010007271faa0201010007
+error 038a06ae03419500343c000000000000030024424e097380680000003c000502ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3880000000000003c014d03ac040000000000016e000000008c000000620500280001000012d8040026f503000000000001500000ffff00a0c0d3884000000000003c015201f30300000000000178000000008c0000031c030024000300000324050028c206000000000000000000000324040026c20600000000000000000000031c020022f303000000000001780000ffff002c018e0007a34100000001000100db0605aa27520000010001018e000727440000002a0000000100db3205aa275f010001018e000727470000002a0000000100db3205aa2765010001018e0007274a0000002a0000000100db3205aa276b010001018e0007274d0000002b0000000100db3505aa2771010001018e000779b8000000fe000100db4405aa277e0000010001018e000727500000002b0000000100db3505aa2777010001018e0007273d0000002a0000000100db3205aa277a010001018e000727400000002a0000000100db3205aa2755010001018e000727430000002a0000000100db3205aa275b010001018e000727460000002a0000000100db3205aa2763010001018e000727490000002a0000000100db3205aa2769010001018e0007274c0000002a0000000100db3205aa276f010001018e000779b7000000fe000100db4405aa277d0000010001018e0007274f0000002b0000000100db3505aa2775010001018e000727520000002b0000000100db3505aa2779010001018e0007273f0000002a0000000100db3205aa277b010001018e000727420000002a0000000100db3205aa2758010001018e000727450000002a0000000100db3205aa2761010001018e000727480000002a0000000100db3205aa2767010001018e0007274b0000002a0000000100db3205aa276d010001018e000779b6000000ff0000000100db4505aa277c010001018e0007274e0000002b0000000100db3505aa2773010001018e000727510000002b0000000100db3505aa2778010001018e0007273e0000002a0000000100db3205aa2753010001018e000727410000002a0000000100db3205aa2757010001005000075fc7ffffffff000100dbb80105aa3013000000018e000779a7000000fe000100db4405aa30190000000000018e000779a5000000ff0000000100db4505aa3016000000018e000779a4000000fe000100db4405aa3015000000000000500007276f0000002b0000000100db3505aa2a680000500007276e0000002b0000000100db3505aa2a6a0000500007276d0000002b0000000100db3505aa2a6c0000500007276c0000002b0000000100db3505aa2a670000500007276b0000002b0000000100db3505aa2a69000050000727730000002b0000000100db3505aa2a6e00018e00077992000000fe000100db4405aa2a6300000000010050000727720000002b0000000100db3505aa2a70000050000727710000002b0000000100db3505aa2a6b00005000077991000000fe0000000100db4405aa2a6f000050000727700000002b0000000100db3505aa2a6d00018e0007a33c000000210000000100db2705aa2fc5000004018e0007a13c000000270000000100db2e05aa2fd400000000500007a33b000000010000000100db0605aa2fc300002b0007a341480001000727448f010001000727479c0100010007274aac0100010007274dcb030001000779b88304000100072750dd0300010007273d65000100072740740001000727438e0100010007274691010001000727499e0100010007274cba010001000779b7bc0200010007274fd903000100072752e70300010007273f73000100072742820100
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 0,
+  checkPointTotal: 4,
+  flags: [ { __type__: 'TreasureHuntFlag', mapId: 88083726, state: 0 } ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 0,
+      poiLabelId: 650
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 6,
+      poiLabelId: 46
+    }
+  ],
+  questType: 0,
+  startMapId: 88213262,
+  totalStepCount: 4
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 0, questType: 0 }
+error 038a05bb034195003438000000000000050024424e097380680000003c000502ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3884000000000003c002503ac040000000000016e000000008c00000062040026000200000326030024ba01000000000000000000000326050028ba010000000000000000ffff00a0c0d3880000000000003c020203f30300000000000178000000008c0000031c020022000100000324020022c2060000000000000000ffff00a0c0d3888000000000003c00f105ac040000000000016e000000008c0000006202002200040000031c050028f30300000000000178000000000062040026ac040000000000016e000000000324050028c20600000000000000000000031c050028f303000000000001780000ffff0094c0d3918000000000003c010101ca050001c60c00020840603607c0c0c100016e000001b81c2ee77c000a477265656e204c656166453f004060360300c0c0c1e71700044b4f5250000f446965204b6f72706f726174696f6ef80100f1cc5c08002b21384500000000001e018e0007272b00000026000100db2d05aa271d0000010002018e0007272e0000002d0000000100db3905aa271f010001018e000727310000002d0000000100db3905aa2721010001018e000729900000002d0000000100db3905aa2730010002018e000727340000002d0000000100db3905aa2726010001018e000729930000002d0000000100db3905aa2729010002018e000729960000002d0000000100db3905aa272c010001005000075fc8ffffffff000100dbb80105aa2731000001018e000727270000002a0000000100db3205aa272d010001018e0007a2f8000000210000000100db2705aa2719010003018e0007272a0000002d0000000100db3905aa271c010001005000077492ffffffff0000000001018e000729920000002d0000000100db3905aa2728010001018e000729950000002d0000000100db3905aa272b010001018e0007281200000026000100db2d05aa27240000010045018e000727260000002a0000000100db3205aa272f010001018e000727290000002a0000000100db3205aa272e010001018e0007272c00000026000100db2d05aa271e0000010002018e0007272f0000002d0000000100db3905aa2720010001018e000727320000002d0000000100db3905aa2722010001018e000729910000002d0000000100db3905aa2727010001018e000727350000002d0000000100db3905aa2723010001018e000729940000002d0000000100db3905aa272a010001018e000728130000002a0000000100db3205aa272501000a018e000727250000002a0000000100db3205aa271a010002018e000727280000002a0000000100db3205aa271b010001018e0007281000000026000100db2d05aa2a260000000002018e0007280c00000026000100db2d05aa2a230000000002018e0007a33c000000210000000100db2705aa2fc500000400500007a33b000000010000000100db0605aa2fc300001c0007272b900200010007272e9f02000100072731ad020001000729908302000100072734bd02000100072993a102000100072996d802000100072727aa0100010007a2f88b0300010007272a84020001000729929e02000100072995bc02000100072812bd03000100072726a901000100072729b70100010007272c910200010007272fa002000100072732ae020001000729919202000100072735ca02000100072994bb02000100072813d9030001000727259a01000100072728b6010001000728109a0300000007280cfe0200000007a33cea0100000007a33b4f01000000000001000c67757683019d01ab01ac01b901d301e101e201ef01000cb503c303c403d103d203e003e1
+error 038a06ae03419500343c000000000000030024424e097380680000003c022806ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3880000000000003c014d03ac040000000000016e000000008c000000620500280001000012d8040026f503000000000001500000ffff00a0c0d3884000000000003c015201f30300000000000178000000008c0000031c030024000300000324050028c206000000000000000000000324040026c20600000000000000000000031c020022f303000000000001780000ffff002c018e0007a34100000001000100db0605aa27520000010001018e000727440000002a0000000100db3205aa275f010001018e000727470000002a0000000100db3205aa2765010001018e0007274a0000002a0000000100db3205aa276b010001018e0007274d0000002b0000000100db3505aa2771010001018e000779b8000000fe000100db4405aa277e0000010001018e000727500000002b0000000100db3505aa2777010001018e0007273d0000002a0000000100db3205aa277a010001018e000727400000002a0000000100db3205aa2755010001018e000727430000002a0000000100db3205aa275b010001018e000727460000002a0000000100db3205aa2763010001018e000727490000002a0000000100db3205aa2769010001018e0007274c0000002a0000000100db3205aa276f010001018e000779b7000000fe000100db4405aa277d0000010001018e0007274f0000002b0000000100db3505aa2775010001018e000727520000002b0000000100db3505aa2779010001018e0007273f0000002a0000000100db3205aa277b010001018e000727420000002a0000000100db3205aa2758010001018e000727450000002a0000000100db3205aa2761010001018e000727480000002a0000000100db3205aa2767010001018e0007274b0000002a0000000100db3205aa276d010001018e000779b6000000ff0000000100db4505aa277c010001018e0007274e0000002b0000000100db3505aa2773010001018e000727510000002b0000000100db3505aa2778010001018e0007273e0000002a0000000100db3205aa2753010001018e000727410000002a0000000100db3205aa2757010001005000075fc7ffffffff000100dbb80105aa3013000000018e000779a7000000fe000100db4405aa30190000000000018e000779a5000000ff0000000100db4505aa3016000000018e000779a4000000fe000100db4405aa3015000000000000500007276f0000002b0000000100db3505aa2a680000500007276e0000002b0000000100db3505aa2a6a0000500007276d0000002b0000000100db3505aa2a6c0000500007276c0000002b0000000100db3505aa2a670000500007276b0000002b0000000100db3505aa2a69000050000727730000002b0000000100db3505aa2a6e00018e00077992000000fe000100db4405aa2a6300000000010050000727720000002b0000000100db3505aa2a70000050000727710000002b0000000100db3505aa2a6b00005000077991000000fe0000000100db4405aa2a6f000050000727700000002b0000000100db3505aa2a6d00018e0007a33c000000210000000100db2705aa2fc5000004018e0007a13c000000270000000100db2e05aa2fd400000000500007a33b000000010000000100db0605aa2fc300002b0007a341480001000727448f010001000727479c0100010007274aac0100010007274dcb030001000779b88304000100072750dd0300010007273d65000100072740740001000727438e0100010007274691010001000727499e0100010007274cba010001000779b7bc0200010007274fd903000100072752e70300010007273f73000100072742820100
+error 038a06ca034195003440000000000000030024424e097380680000003c022806ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3888000000000003c01e501ac040000000000016e000000008c00000062040026000600000326020022ba01000000000000000000000326020022ba01000000000000000000000324040026c2060000000000000000000012d8040026f50300000000000150000000000326050028ba01000000000000000000000062010020ac040000000000016e0000ffff00a0c0d3884000000000003c020a01ba01000000000000000000008c0000032603002400020000031c010020f303000000000001780000000012d8040026f503000000000001500000ffff002c005000072716000000270000000100db2e05aa278101005000072719000000270000000100db2e05aa278401018e0007271c000000270000000100db2e05aa278701000000500007271f000000270000000100db2e05aa278a01018e00072722000000270000000100db2e05aa278d010000005000072714000000270000000100db2e05aa277f01005000072717000000270000000100db2e05aa278201018e0007271a000000270000000100db2e05aa278501000000500007271d000000270000000100db2e05aa278801018e00072720000000270000000100db2e05aa278b010000005000072723000000270000000100db2e05aa278e01018e00079bb4000000430000000100db4705aa2790010000018e00072715000000270000000100db2e05aa2780010000005000072718000000270000000100db2e05aa27830100500007271b000000270000000100db2e05aa27860100500007271e000000270000000100db2e05aa278901018e00072721000000270000000100db2e05aa278c010000018e00072724000000270000000100db2e05aa278f0100000050000729830000002c0000000100db3405aa2a7d00018e0007a34100000001000100db0605aa27520000000001018e000727410000002a0000000100db3205aa2757000001018e000727400000002a0000000100db3205aa27550000010050000727540000002c0000000100db3405aa2a8300005000075fd3ffffffff000100dbb80105aa2a810000000050000727530000002c0000000100db3405aa2a82000050000729500000002d0000000100db3905aa3054000050000727670000002c0000000100db3405aa2a78000050000727660000002c0000000100db3405aa2a77000050000779af000000fe0000000100db4405aa3062000050000779ad000000fe0000000100db4405aa305e00018e0007276a0000002c0000000100db3405aa2a7b0000000050000727690000002c0000000100db3405aa2a7a000050000727680000002c0000000100db3405aa2a7900018e000727370000002d0000000100db3905aa303a0000000050000727360000002d0000000100db3905aa303700018e0007273f0000002a0000000100db3205aa277b000001018e0007273e0000002a0000000100db3205aa2753000001018e0007273d0000002a0000000100db3205aa277a000001018e0007a13c000000270000000100db2e05aa2fd4000000018e0007273c0000002d0000000100db3905aa304800000000500007273b0000002d0000000100db3905aa30440000500007273a0000002d0000000100db3905aa304100018e000727390000002d0000000100db3905aa30400000010050000727380000002d0000000100db3905aa303e00002b0007271682020101000727198f0201010007271c9202000100079bb4fd03000100072722bb02000100072714e701010100072717830201010007271a900200010007271d9d02010100072720ab02000100072723c70201010007271faa020101
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       48,  63,  77,
+       89, 103, 118,
+      143, 157, 172,
+      183, 198, 212
+    ],
+    positionsForDefenders: [
+      341, 354, 355,
+      368, 369, 381,
+      382, 395, 396,
+      408, 409, 423
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 489917,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 489914,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 489916,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 489913,
+      elementTypeId: 254,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 500553,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 489915,
+      elementTypeId: 254,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 500552,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500004,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500002,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500481,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500001,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499983,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 469737,
+      elementTypeId: 47,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468791,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499991,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468790,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499990,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468820,
+      elementTypeId: 44,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468819,
+      elementTypeId: 44,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499987,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499986,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499984,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499998,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499997,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499996,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499995,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499994,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468793,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 499993,
+      elementTypeId: 43,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 468792,
+      elementTypeId: 45,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083729,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 467,
+      elementId: 489917,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 166,
+      elementId: 489914,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 337,
+      elementId: 489916,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 152,
+      elementId: 489913,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 440,
+      elementId: 500553,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 324,
+      elementId: 489915,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 217,
+      elementId: 500552,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 401,
+      elementId: 500004,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 374,
+      elementId: 500002,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 337,
+      elementId: 500481,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 373,
+      elementId: 500001,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 275,
+      elementId: 499983,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 340,
+      elementId: 469737,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 109,
+      elementId: 468791,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 320,
+      elementId: 499991,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 96,
+      elementId: 468790,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 318,
+      elementId: 499990,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 113,
+      elementId: 468820,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 98,
+      elementId: 468819,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 304,
+      elementId: 499987,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 303,
+      elementId: 499986,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 291,
+      elementId: 499984,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 347,
+      elementId: 499998,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 345,
+      elementId: 499997,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 334,
+      elementId: 499996,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 333,
+      elementId: 499995,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 332,
+      elementId: 499994,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 138,
+      elementId: 468793,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 331,
+      elementId: 499993,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 124,
+      elementId: 468792,
+      elementState: 1,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 3
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       34,  37,  48,
+       50,  63,  64,
+       91,  92, 104,
+      106, 118, 121
+    ],
+    positionsForDefenders: [
+       35,  36,  49,
+       62,  65,  76,
+       78,  90,  93,
+      105, 119, 120
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [],
+      elementId: 500500,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 489879,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 500499,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 489881,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 489878,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [],
+      elementId: 500501,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 489880,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 489891,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 488593,
+      elementTypeId: -1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 489889,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 489886,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 500552,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083730,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 152,
+      elementId: 500500,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 282,
+      elementId: 489879,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 24,
+      elementId: 500499,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 389,
+      elementId: 489881,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 194,
+      elementId: 489878,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 239,
+      elementId: 500501,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 343,
+      elementId: 489880,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 501,
+      elementId: 489891,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 374,
+      elementId: 489889,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 250,
+      elementId: 489886,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 217,
+      elementId: 500552,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 3
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      169, 172, 183,
+      185, 198, 199,
+      226, 227, 239,
+      241, 253, 256
+    ],
+    positionsForDefenders: [
+      170, 171, 184,
+      197, 200, 211,
+      213, 225, 228,
+      240, 254, 255
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 489900,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468660,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468663,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468666,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468669,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 483269,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468672,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468675,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 489896,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 489899,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468662,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 476641,
+      elementTypeId: -1,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468665,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468668,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468671,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468674,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 489898,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 500521,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468661,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468664,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468667,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468670,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 468673,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 468676,
+      elementTypeId: 42,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 489897,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [],
+      elementId: 500500,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 500499,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 488593,
+      elementTypeId: -1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 500508,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 489928,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083731,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 99,
+      elementId: 489896,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 376,
+      elementId: 489899,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 369,
+      elementId: 468661,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 383,
+      elementId: 468664,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 397,
+      elementId: 468667,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 410,
+      elementId: 468670,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 426,
+      elementId: 468673,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 453,
+      elementId: 468676,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 110,
+      elementId: 489897,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 436,
+      elementId: 489900,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 217,
+      elementId: 500521,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 381,
+      elementId: 468662,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 395,
+      elementId: 468665,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 398,
+      elementId: 468668,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 411,
+      elementId: 468671,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 438,
+      elementId: 468674,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 210,
+      elementId: 489898,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 354,
+      elementId: 468660,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 382,
+      elementId: 468663,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 396,
+      elementId: 468666,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 409,
+      elementId: 468669,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 425,
+      elementId: 468672,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 439,
+      elementId: 468675,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 152,
+      elementId: 500500,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 24,
+      elementId: 500499,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 474,
+      elementId: 500508,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 450,
+      elementId: 489928,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 3
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       34,  47,  48,
+       61,  62,  74,
+       75,  88,  89,
+      101, 102, 116
+    ],
+    positionsForDefenders: [
+      229, 230, 243,
+      244, 258, 269,
+      272, 284, 297,
+      298, 312, 313
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 13,
+      disabledSkills: [],
+      elementId: 500502,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 6,
+      disabledSkills: [Array],
+      elementId: 500504,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 6,
+      disabledSkills: [],
+      elementId: 500503,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 500521,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 489897,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 489896,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083732,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 96,
+      elementId: 500502,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 509,
+      elementId: 500504,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 288,
+      elementId: 500503,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 217,
+      elementId: 500521,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 110,
+      elementId: 489897,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 99,
+      elementId: 489896,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 3
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      370, 383, 384,
+      397, 398, 410,
+      411, 424, 425,
+      437, 438, 452
+    ],
+    positionsForDefenders: [
+       35,  36,  48,
+       49,  63,  76,
+       79,  93, 106,
+      107, 120, 121
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 495621,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [],
+      elementId: 500488,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [],
+      elementId: 500490,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 495622,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [],
+      elementId: 500489,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 13,
+      disabledSkills: [],
+      elementId: 500502,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 4,
+      disabledSkills: [],
+      elementId: 500495,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500537,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 7,
+      disabledSkills: [Array],
+      elementId: 500536,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083733,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 53,
+      elementId: 495621,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 193,
+      elementId: 500488,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 401,
+      elementId: 500490,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 435,
+      elementId: 495622,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 257,
+      elementId: 500489,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 96,
+      elementId: 500502,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 241,
+      elementId: 500495,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 405,
+      elementId: 500537,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 291,
+      elementId: 500536,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 485
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2873,
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      438, 452, 453,
+      467, 479, 482,
+      492, 495, 507,
+      521, 522, 536
+    ],
+    positionsForDefenders: [
+      459, 472, 473,
+      486, 487, 499,
+      500, 513, 514,
+      526, 527, 541
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 496538,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 472244,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 43,
+      disabledSkills: [Array],
+      elementId: 500574,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 472242,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 8,
+      disabledSkills: [],
+      elementId: 500575,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 495623,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 495621,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 7,
+      disabledSkills: [Array],
+      elementId: 500493,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [],
+      elementId: 500488,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083734,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 310,
+      elementId: 496538,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 57,
+      elementId: 500574,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 443,
+      elementId: 500575,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 233,
+      elementId: 495623,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 53,
+      elementId: 495621,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 432,
+      elementId: 500493,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 193,
+      elementId: 500488,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 485
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 0,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88083726, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 68419591, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 0,
+      poiLabelId: 650
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 6,
+      poiLabelId: 46
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToHint',
+      direction: 0,
+      npcId: 2669
+    }
+  ],
+  questType: 0,
+  startMapId: 88213262,
+  totalStepCount: 4
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 1, questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      438, 439, 453,
+      454, 467, 479,
+      482, 493, 507,
+      508, 521, 522
+    ],
+    positionsForDefenders: [
+      312, 325, 326,
+      340, 370, 383,
+      384, 398, 428,
+      441, 442, 456
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 492621,
+      elementTypeId: 79,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 497951,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 492623,
+      elementTypeId: 74,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 492339,
+      elementTypeId: 75,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 6,
+      disabledSkills: [Array],
+      elementId: 459442,
+      elementTypeId: 67,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [Array],
+      elementId: 459441,
+      elementTypeId: 61,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 12,
+      disabledSkills: [Array],
+      elementId: 459440,
+      elementTypeId: 31,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [Array],
+      elementId: 459439,
+      elementTypeId: 68,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 492383,
+      elementTypeId: 76,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 7,
+      disabledSkills: [Array],
+      elementId: 459438,
+      elementTypeId: 34,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 492382,
+      elementTypeId: 75,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 492380,
+      elementTypeId: 79,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 492250,
+      elementTypeId: 76,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 68419591,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 52,
+      elementId: 492621,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 296,
+      elementId: 497951,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 69,
+      elementId: 492623,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 536,
+      elementId: 492339,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 478,
+      elementId: 459442,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 325,
+      elementId: 459441,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 312,
+      elementId: 459440,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 198,
+      elementId: 459439,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 30,
+      elementId: 492383,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 183,
+      elementId: 459438,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 29,
+      elementId: 492382,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 4,
+      elementId: 492380,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 543,
+      elementId: 492250,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 485
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 2, questType: 0 }
+error 038a05b4df03419050081c000000000000050024424e097380680000003c012600ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3880000000000003c00d605ae260000000000018201000000008c000014690500140000ffff00a0c0d3888000000000003c019b03ae260000000000018201000000008c0000146905001400040000002e020011ac260000000000018201000000001469050014ae260000000000018201000000001469010010ae260000000000018201000000001469010010ae2600000000000182010000ffff00a0c0d3884000000000003c008e07ac260000000000018201000000008c0000002e050014000200001469010010ae260000000000018201000000001469050014ae2600000000000182010000ffff01d7bff0000000000000003c00ee018915000000000001c8010000ed140020018e000783620000004c000100db7e05aa1c7d0000010000018e000783640000004c000100db7e05aa1c7f0000010000018e000702b00000001f0000000100db2505aa1c6d01000c018e000783660000004b000100db7c05aa1c840000010000018e000783690000004f000100db7f05aa1c890000010000018e0007836c0000004f000100db7f05aa1c8c0000010000018e0007836f0000004b000100db7c05aa1c8e0000010001018e0007835e0000004b000100db7c05aa1c750000010000018e000702ae000000220000000100db2805aa1c61010007018e000702b10000003d0000000100db4a05aa1c6e010005018e000783700000004a000100db7d05aa1c8f0000010001018e0007835c0000004f000100db7f05aa1c730000010000018e000783650000004a000100db7d05aa1c820000010002018e000702af000000440000000100db4905aa1c67010005018e000702b2000000430000000100db4705aa1c70010006018e000783680000004b000100db7c05aa1c88000001000000500007836b0000004a0000000100db7d05aa1c8b01018e0007836e0000004a000100db7d05aa1c8d0000010006018e0007835f0000004c000100db7e05aa1c770000010002018e000783610000004c000100db7e05aa1c7900000100020050000783370000004a0000000100db7d05aa1d56000050000783360000004b0000000100db7c05aa1d5100018e0007aaa50000004f000100db7f05aa1d4c00000000000050000783340000004a0000000100db7d05aa1d5000018e000783330000004b000100db7c05aa1c440000000001018e000783720000004f000100db7f05aa1c7c0000000002018e000783710000004a000100db7d05aa1c7a0000000001018e0007844f0000004a000100db7d05aa1c870000000002018e000702be000000430000000100db4705aa1c78000002018e0007844d0000004f000100db7f05aa1c850000000000018e000782da0000004c000100db7e05aa1c4a00000000000050000783380000004f0000000100db7f05aa1d5b00002000078362780001000702b0b802000100078366ac02000100078369ba0300010007836ce40300010007836f91040001000702b1c50200010007835e1d0001000702aeb701000100078364da01000100078370920400010007835c04000100078365e7010001000702afc6010001000702b2de03000100078368e50200010007836be30301010007836e850400010007835f1e0001000783616a0001000783373f0100000783363401000007aaa530000000078334170100000783339804000000078372e003000000078371d20300000007844f450000000702bed00200000007844d340000000782da9f040000000783384f01000000000001000cb801c601c701d401d501e301e401f101f201800281028e02000ccf03dd03de03eb03ec03fa03fb03880489049704
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 0,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88083726, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 68419591, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 68420103, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 0,
+      poiLabelId: 650
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 6,
+      poiLabelId: 46
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToHint',
+      direction: 0,
+      npcId: 2669
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 2,
+      poiLabelId: 326
+    }
+  ],
+  questType: 0,
+  startMapId: 88213262,
+  totalStepCount: 4
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 2, questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      429, 442, 443,
+      458, 469, 472,
+      483, 486, 497,
+      512, 513, 526
+    ],
+    positionsForDefenders: [
+       87, 100, 101,
+      116, 127, 130,
+      141, 144, 155,
+      170, 171, 184
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 497947,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 492343,
+      elementTypeId: 74,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 502437,
+      elementTypeId: 79,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 492340,
+      elementTypeId: 74,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 492342,
+      elementTypeId: 75,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 492344,
+      elementTypeId: 79,
+      enabledSkills: [],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 68420104,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 383,
+      elementId: 497947,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 63,
+      elementId: 492343,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 48,
+      elementId: 502437,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 79,
+      elementId: 492344,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 52,
+      elementId: 492342,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 23,
+      elementId: 492340,
+      elementState: 1,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 485
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2873,
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      458, 471, 472,
+      486, 487, 500,
+      501, 515, 516,
+      529, 530, 544
+    ],
+    positionsForDefenders: [
+       59,  72,  73,
+       87,  88, 101,
+      102, 116, 117,
+      130, 131, 145
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 511890,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 4,
+      disabledSkills: [],
+      elementId: 500496,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 4,
+      disabledSkills: [],
+      elementId: 500495,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 13,
+      disabledSkills: [],
+      elementId: 500502,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 495621,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 8,
+      disabledSkills: [],
+      elementId: 500571,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [],
+      elementId: 500490,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [],
+      elementId: 500488,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88084245,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 433,
+      elementId: 500496,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 241,
+      elementId: 500495,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 96,
+      elementId: 500502,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 53,
+      elementId: 495621,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 254,
+      elementId: 500571,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 401,
+      elementId: 500490,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 193,
+      elementId: 500488,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 485
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      356, 359, 371,
+      373, 385, 386,
+      413, 414, 427,
+      429, 440, 443
+    ],
+    positionsForDefenders: [
+      357, 358, 372,
+      384, 387, 399,
+      401, 412, 415,
+      428, 441, 442
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [],
+      elementId: 500506,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 6,
+      disabledSkills: [],
+      elementId: 500503,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 13,
+      disabledSkills: [],
+      elementId: 500502,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 17,
+      disabledSkills: [Array],
+      elementId: 500498,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 489897,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88084244,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 276,
+      elementId: 500506,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 288,
+      elementId: 500503,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 96,
+      elementId: 500502,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 336,
+      elementId: 500498,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 110,
+      elementId: 489897,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 3
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 1,
+  checkPointTotal: 4,
+  flags: [],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    }
+  ],
+  questType: 0,
+  startMapId: 88084244,
+  totalStepCount: 5
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 3, questType: 0 }
+{ __type__: 'TreasureHuntDigRequestMessage', questType: 0 }
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 0,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88083726, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 68419591, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 68420103, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88084244, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 0,
+      poiLabelId: 650
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 6,
+      poiLabelId: 46
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToHint',
+      direction: 0,
+      npcId: 2669
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 2,
+      poiLabelId: 326
+    }
+  ],
+  questType: 0,
+  startMapId: 88213262,
+  totalStepCount: 4
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 1,
+  checkPointTotal: 4,
+  flags: [ { __type__: 'TreasureHuntFlag', mapId: 88083732, state: 0 } ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    }
+  ],
+  questType: 0,
+  startMapId: 88084244,
+  totalStepCount: 5
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 0, questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       34,  47,  48,
+       61,  62,  74,
+       75,  88,  89,
+      101, 102, 116
+    ],
+    positionsForDefenders: [
+      229, 230, 243,
+      244, 258, 269,
+      272, 284, 297,
+      298, 312, 313
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 13,
+      disabledSkills: [],
+      elementId: 500502,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 6,
+      disabledSkills: [Array],
+      elementId: 500504,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 6,
+      disabledSkills: [],
+      elementId: 500503,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 500521,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 489897,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 489896,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083732,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 96,
+      elementId: 500502,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 509,
+      elementId: 500504,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 288,
+      elementId: 500503,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 217,
+      elementId: 500521,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 110,
+      elementId: 489897,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 99,
+      elementId: 489896,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 3
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 1, questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 4806,
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      380, 394, 395,
+      408, 409, 423,
+      424, 437, 438,
+      452, 453, 466
+    ],
+    positionsForDefenders: [
+      16,  17,  30,
+      31,  44,  58,
+      61,  74,  88,
+      89, 101, 102
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 7,
+      disabledSkills: [],
+      elementId: 500474,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 474869,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 8,
+      disabledSkills: [],
+      elementId: 500473,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 496530,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500544,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500543,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 12,
+      disabledSkills: [Array],
+      elementId: 476189,
+      elementTypeId: 66,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 500541,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 6,
+      disabledSkills: [Array],
+      elementId: 500504,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 489896,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88083220,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 407,
+      elementId: 500474,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 284,
+      elementId: 500473,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 312,
+      elementId: 496530,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 416,
+      elementId: 500544,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 179,
+      elementId: 500543,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 167,
+      elementId: 476189,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 8,
+      elementId: 500541,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 509,
+      elementId: 500504,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 99,
+      elementId: 489896,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 485
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 1,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88083732, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88083220, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 115
+    }
+  ],
+  questType: 0,
+  startMapId: 88084244,
+  totalStepCount: 5
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      440, 454, 455,
+      468, 469, 483,
+      484, 497, 498,
+      512, 513, 526
+    ],
+    positionsForDefenders: [
+      234, 247, 248,
+      262, 263, 276,
+      277, 291, 292,
+      305, 306, 320
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 12,
+      disabledSkills: [Array],
+      elementId: 476189,
+      elementTypeId: 66,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500543,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 476191,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500542,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500544,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 500541,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [],
+      elementId: 496530,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [Array],
+      elementId: 500494,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 7,
+      disabledSkills: [],
+      elementId: 500474,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 8,
+      disabledSkills: [],
+      elementId: 500473,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88082708,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 167,
+      elementId: 476189,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 179,
+      elementId: 500543,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 99,
+      elementId: 500542,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 416,
+      elementId: 500544,
+      elementState: 1,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 8,
+      elementId: 500541,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 312,
+      elementId: 496530,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 418,
+      elementId: 500494,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 407,
+      elementId: 500474,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 284,
+      elementId: 500473,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 485
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 139565802,
+      alignmentInfos: [Object],
+      contextualId: 545577042128,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Lamegere'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayPrismInformations',
+      contextualId: -20001,
+      disposition: [Object],
+      look: [Object],
+      prism: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      425, 428, 439,
+      441, 454, 455,
+      482, 483, 495,
+      497, 509, 512
+    ],
+    positionsForDefenders: [
+      426, 427, 440,
+      453, 456, 467,
+      469, 481, 484,
+      496, 510, 511
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 5,
+      disabledSkills: [Array],
+      elementId: 500494,
+      elementTypeId: 33,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 472916,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [Array],
+      elementId: 500542,
+      elementTypeId: 1,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 472060,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473676,
+      elementTypeId: 300,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88082196,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 418,
+      elementId: 500494,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 99,
+      elementId: 500542,
+      elementState: 1,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 157,
+      elementId: 472060,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 10
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 1,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88083732, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88083220, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88082196, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 115
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 2,
+      poiLabelId: 105
+    }
+  ],
+  questType: 0,
+  startMapId: 88084244,
+  totalStepCount: 5
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 2, questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcWithQuestInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2230,
+      questFlag: [Object],
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      313, 326, 327,
+      341, 371, 384,
+      385, 399, 429,
+      442, 443, 457
+    ],
+    positionsForDefenders: [
+       51,  65,  66,
+       78,  79,  92,
+       93, 105, 106,
+      119, 120, 133
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [
+    {
+      __type__: 'HouseOnMapInformations',
+      doorsOnMap: [Array],
+      houseId: 10035,
+      houseInstances: [Array],
+      modelId: 286
+    },
+    {
+      __type__: 'HouseOnMapInformations',
+      doorsOnMap: [Array],
+      houseId: 10034,
+      houseInstances: [Array],
+      modelId: 285
+    }
+  ],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473676,
+      elementTypeId: 300,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 472060,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 483850,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473677,
+      elementTypeId: 300,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 500484,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473074,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473072,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [Array],
+      elementId: 500527,
+      elementTypeId: 34,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88082195,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 157,
+      elementId: 472060,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 44,
+      elementId: 500484,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 243,
+      elementId: 500527,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 482
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 3, questType: 0 }
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 1,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88083732, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88083220, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88082196, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88082195, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 115
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 2,
+      poiLabelId: 105
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 47
+    }
+  ],
+  questType: 0,
+  startMapId: 88084244,
+  totalStepCount: 5
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       35,  48,  49,
+       63,  64,  77,
+       78,  92,  93,
+      106, 107, 121
+    ],
+    positionsForDefenders: [
+      231, 244, 245,
+      259, 285, 298,
+      299, 313, 339,
+      352, 353, 367
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [
+    {
+      __type__: 'HouseOnMapInformations',
+      doorsOnMap: [Array],
+      houseId: 9770,
+      houseInstances: [Array],
+      modelId: 293
+    }
+  ],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473072,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473678,
+      elementTypeId: 300,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473677,
+      elementTypeId: 300,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495933,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 472060,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 473676,
+      elementTypeId: 300,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88081683,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 151,
+      elementId: 495933,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 157,
+      elementId: 472060,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 482
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 1,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88083732, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88083220, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88082196, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88082195, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88081683, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 87
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 115
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 2,
+      poiLabelId: 105
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 47
+    }
+  ],
+  questType: 0,
+  startMapId: 88084244,
+  totalStepCount: 5
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 2,
+  checkPointTotal: 4,
+  flags: [],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 326
+    }
+  ],
+  questType: 0,
+  startMapId: 88081683,
+  totalStepCount: 2
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 4, questType: 0 }
+{ __type__: 'TreasureHuntDigRequestMessage', questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2150,
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayPrismInformations',
+      contextualId: -20001,
+      disposition: [Object],
+      look: [Object],
+      prism: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       92, 106, 121,
+      352, 366, 367,
+      379, 381, 394,
+      408, 453, 467
+    ],
+    positionsForDefenders: [
+       37,  50,  64,
+      380, 395, 439,
+      454, 466, 468,
+      481, 482, 495
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495933,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471443,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471442,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495916,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88081171,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 151,
+      elementId: 495933,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 111,
+      elementId: 471443,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 94,
+      elementId: 471442,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 109,
+      elementId: 495916,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 482
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      427, 440, 441,
+      456, 467, 470,
+      481, 484, 495,
+      510, 511, 524
+    ],
+    positionsForDefenders: [
+      179, 192, 193,
+      206, 207, 219,
+      220, 233, 234,
+      246, 247, 261
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 498614,
+      elementTypeId: 67,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471445,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471442,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495916,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471441,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471444,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471443,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 88080659,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 127,
+      elementId: 498614,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 256,
+      elementId: 471445,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 94,
+      elementId: 471442,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 244,
+      elementId: 471444,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 72,
+      elementId: 471441,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 111,
+      elementId: 471443,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 109,
+      elementId: 495916,
+      elementState: 0,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 482
+}
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 2,
+  checkPointTotal: 4,
+  flags: [ { __type__: 'TreasureHuntFlag', mapId: 88080659, state: 0 } ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 326
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 0,
+      poiLabelId: 523
+    }
+  ],
+  questType: 0,
+  startMapId: 88081683,
+  totalStepCount: 2
+}
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 0, questType: 0 }
+{ __type__: 'TreasureHuntDigRequestMessage', questType: 0 }
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 2,
+  checkPointTotal: 4,
+  flags: [
+    { __type__: 'TreasureHuntFlag', mapId: 88080659, state: 0 },
+    { __type__: 'TreasureHuntFlag', mapId: 88081171, state: 0 }
+  ],
+  knownStepsList: [
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 4,
+      poiLabelId: 326
+    },
+    {
+      __type__: 'TreasureHuntStepFollowDirectionToPOI',
+      direction: 0,
+      poiLabelId: 523
+    }
+  ],
+  questType: 0,
+  startMapId: 88081683,
+  totalStepCount: 2
+}
+{ __type__: 'TreasureHuntDigRequestMessage', questType: 0 }
+{ __type__: 'TreasureHuntFlagRequestMessage', index: 1, questType: 0 }
+{
+  __type__: 'TreasureHuntMessage',
+  availableRetryCount: 4,
+  checkPointCurrent: 3,
+  checkPointTotal: 4,
+  flags: [],
+  knownStepsList: [ { __type__: 'TreasureHuntStepFight' } ],
+  questType: 0,
+  startMapId: 88081171,
+  totalStepCount: 0
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2150,
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayPrismInformations',
+      contextualId: -20001,
+      disposition: [Object],
+      look: [Object],
+      prism: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       92, 106, 121,
+      352, 366, 367,
+      379, 381, 394,
+      408, 453, 467
+    ],
+    positionsForDefenders: [
+       37,  50,  64,
+      380, 395, 439,
+      454, 466, 468,
+      481, 482, 495
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495933,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471443,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471442,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495916,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88081171,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 151,
+      elementId: 495933,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 111,
+      elementId: 471443,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 94,
+      elementId: 471442,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 109,
+      elementId: 495916,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 482
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2150,
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20004,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayPrismInformations',
+      contextualId: -20001,
+      disposition: [Object],
+      look: [Object],
+      prism: [Object]
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       92, 106, 121,
+      352, 366, 367,
+      379, 381, 394,
+      408, 453, 467
+    ],
+    positionsForDefenders: [
+       37,  50,  64,
+      380, 395, 439,
+      454, 466, 468,
+      481, 482, 495
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495933,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 471443,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [],
+      elementId: 471442,
+      elementTypeId: 1,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 3,
+      disabledSkills: [Array],
+      elementId: 495916,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 88081171,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 151,
+      elementId: 495933,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 111,
+      elementId: 471443,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 94,
+      elementId: 471442,
+      elementState: 0,
+      onCurrentMap: false
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 109,
+      elementId: 495916,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 482
+}
