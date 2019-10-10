@@ -32,6 +32,10 @@ const tsharkParams = [
   "5555"
 ];
 let tsharkProcess;
+let tsharkBinName = "tshark";
+if (process.platform === "win32") {
+  tsharkBinName = "tshark.exe";
+}
 
 tsharkProcess = spawn("tshark", tsharkParams);
 
