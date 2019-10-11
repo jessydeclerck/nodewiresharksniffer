@@ -27,9 +27,9 @@ const tsharkParams = [
   "tcp.srcport",
   "-e",
   "tcp.payload",
-  "-o",
+  "-o", //https://www.wireshark.org/docs/dfref/t/tcp.html see not captured flag tcp.analysis.lost_segment	
   // "ip.defragment:true",
-  "tcp.desegment_tcp_streams:true",
+  "tcp.desegment_tcp_streams:true", //promiscuous mode might help
   "port",
   "5555"
 ];
