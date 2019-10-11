@@ -28,7 +28,7 @@ const tsharkParams = [
   "-e",
   "tcp.payload",
   "-o",
-  "tcp.desegment_tcp_streams:false",
+  "tcp.desegment_tcp_streams:true", //TODO try defragment
   "port",
   "5555"
 ];

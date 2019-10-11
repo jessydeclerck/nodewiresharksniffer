@@ -5,6 +5,8 @@ const axios = require("axios");
 
 main();
 
+//TODO check if merge needed
+
 // import { msgIds, msgName } from "./neededMsg";
 async function main() {
   let srcport = 5555;
