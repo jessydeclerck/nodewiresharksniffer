@@ -28,8 +28,8 @@ const tsharkParams = [
   "-e",
   "tcp.payload",
   "-o",
-  "ip.defragment:true",
-  // "tcp.desegment_tcp_streams:true",
+  // "ip.defragment:true",
+  "tcp.desegment_tcp_streams:true",
   "port",
   "5555"
 ];
