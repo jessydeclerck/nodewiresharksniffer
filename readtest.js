@@ -2,6 +2,7 @@ const readMsgId = require("./payloadReader").readMsgId;
 // import { readMsgId } from "./payloadReader";
 const msgIds = require("./neededMsg").msgIds;
 const axios = require("axios");
+const treasureHelper = require("./treasureHelper");
 
 main();
 
@@ -18,6 +19,8 @@ async function main() {
   let decodedMessage = await decodePayload(dataPayload, context);
   console.log("decoded message:");
   console.log(decodedMessage);
+  console.log(decodedMessage.__type__);
+  treasureHelper.handleData(decodedMessage);
 }
 
 async function decodePayload(payload, context) {

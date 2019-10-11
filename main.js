@@ -3,8 +3,8 @@ const oboe = require("oboe");
 const _ = require("lodash");
 const axios = require("axios");
 const readMsgId = require("./payloadReader").readMsgId;
-// import { readMsgId } from "./payloadReader";
 const msgIds = require("./neededMsg").msgIds;
+const treasureHelper = require("./treasureHelper");
 /**
  * on Linux, Unix, *BSD you can use
 
@@ -54,8 +54,8 @@ oboe(tsharkProcess.stdout).node("layers", async data => {
     let context = getContext(srcport);
     let decodedMessage = await decodePayload(dataPayload, context);
     console.log(decodedMessage);
+    treasureHelper.handleData(decodedMessage);
   }
-
 });
 
 tsharkProcess.stderr.pipe(process.stdout);
@@ -74,7 +74,10 @@ async function decodePayload(payload, context) {
   } catch (err) {
     console.log(`error ${payload}`);
   }
-  return response.data;
+  if (response) {
+    return response.data;
+  }
+  return "";
 }
 
 function getContext(srcport) {
