@@ -3976,3 +3976,1408 @@ error 038a07ce0a419508145c0000000000000e0024425f4bb740340000003c01870401000546bc
   totalStepCount: 6
 }
 { __type__: 'TreasureHuntFlagRequestMessage', index: 0, questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 67076864,
+      alignmentInfos: [Object],
+      contextualId: 52334887120,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Ak-Tank'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 86645968,
+      alignmentInfos: [Object],
+      contextualId: 542273962192,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Ne-yam'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 116526530,
+      alignmentInfos: [Object],
+      contextualId: 545368965328,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Ak-Kirua'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      421, 434, 435,
+      449, 450, 463,
+      464, 478, 479,
+      492, 493, 507
+    ],
+    positionsForDefenders: [
+       25,  39,  40,
+       54,  66,  69,
+       79,  82,  94,
+      108, 109, 123
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 517202,
+      elementTypeId: 16,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 142087694,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 341,
+      elementId: 517048,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 313,
+      elementId: 517202,
+      elementState: 0,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 1353,
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 174052278480,
+      disposition: [Object],
+      look: [Object],
+      name: 'Ghost-Star',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 37287690448,
+      disposition: [Object],
+      look: [Object],
+      name: 'Threwen',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 543332106448,
+      disposition: [Object],
+      look: [Object],
+      name: 'Mge-Fragment-Shop',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 545470873808,
+      disposition: [Object],
+      look: [Object],
+      name: 'Joe-Lacastagne',
+      options: [],
+      sellType: 2
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 77499203792,
+      disposition: [Object],
+      look: [Object],
+      name: 'Sadi-roxxe',
+      options: [Array],
+      sellType: 0
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      123, 149, 175,
+      244, 295, 344,
+      348, 351, 426,
+      477, 491, 497
+    ],
+    positionsForDefenders: [
+      174, 233, 235,
+      245, 264, 331,
+      362, 372, 399,
+      422, 442, 465
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 506454,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 142088206,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 239,
+      elementId: 506454,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 344768774352,
+      disposition: [Object],
+      look: [Object],
+      name: 'Hsi-Misstisacri',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 537281167568,
+      disposition: [Object],
+      look: [Object],
+      name: 'Aerozxaurel',
+      options: [Array],
+      sellType: 3
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 540871426256,
+      disposition: [Object],
+      look: [Object],
+      name: 'Mge-Carte-Shop',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 539361870032,
+      disposition: [Object],
+      look: [Object],
+      name: 'Lexisdechibot',
+      options: [],
+      sellType: 3
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 255540461776,
+      disposition: [Object],
+      look: [Object],
+      name: 'Play-er',
+      options: [Array],
+      sellType: 3
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      339, 366, 367,
+      368, 393, 394,
+      396, 397, 422,
+      423, 424, 451
+    ],
+    positionsForDefenders: [
+      352, 353, 379,
+      380, 381, 382,
+      407, 408, 409,
+      410, 436, 437
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 506454,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 486028,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 1,
+      disabledSkills: [Array],
+      elementId: 506443,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 142088718,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 239,
+      elementId: 506454,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 102,
+      elementId: 506443,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      342, 369, 370,
+      371, 396, 397,
+      399, 400, 425,
+      426, 427, 454
+    ],
+    positionsForDefenders: [
+      355, 356, 382,
+      383, 384, 385,
+      410, 411, 412,
+      413, 439, 440
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505622,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484927,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128451073,
+  obstacles: [],
+  statedElements: [],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 344768774352,
+      disposition: [Object],
+      look: [Object],
+      name: 'Hsi-Misstisacri',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 537281167568,
+      disposition: [Object],
+      look: [Object],
+      name: 'Aerozxaurel',
+      options: [Array],
+      sellType: 3
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 540871426256,
+      disposition: [Object],
+      look: [Object],
+      name: 'Mge-Carte-Shop',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 539361870032,
+      disposition: [Object],
+      look: [Object],
+      name: 'Lexisdechibot',
+      options: [],
+      sellType: 3
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 255540461776,
+      disposition: [Object],
+      look: [Object],
+      name: 'Play-er',
+      options: [Array],
+      sellType: 3
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      339, 366, 367,
+      368, 393, 394,
+      396, 397, 422,
+      423, 424, 451
+    ],
+    positionsForDefenders: [
+      352, 353, 379,
+      380, 381, 382,
+      407, 408, 409,
+      410, 436, 437
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [],
+      elementId: 506454,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 486028,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 2,
+      disabledSkills: [Array],
+      elementId: 506443,
+      elementTypeId: 255,
+      enabledSkills: [],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 142088718,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 239,
+      elementId: 506454,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 102,
+      elementId: 506443,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 68
+}
+error 038a05df0a4195081c5c00000000000008002442449cf600680000003c00db06841c0000000301da70d603da70d602e6b10000017300010200020005799711d016901aea13000501f9f2da02e3e24e032cdfd604e8e1290549ebd5000191010000000957616c742d64616461009d00080001000201984f0000019b31cb01ffff03ffffffff0605493300000042449cf600cc0000002442545247c0340000003c00e8010100069e0bb9118a1ed81cf41c871b000901ffc27d022a2a3b0334333a046c6a7405b3bfb307000000081f20ba09ffffff0a8b92bc0001910100010100f6270000000901ffc27d022a2a3b0334333a046c6a7405b3bfb307000000081f20ba09ffffff0a8b92bc00000000000943796265726969756d009d0008000100050199c307000b554b462044756273746570c80f001f20ba080000000001a9d3160003514254000e4c6520517561727465726261636b21008b92bc0800ffffff00019a00000198fc010000019b62bc02ffff03ffffffff0343b58102300042545247c0660000002441eb03001a000000003c01950301000651d410b21db11db91d981a000901f5b95f0260219f03ffffff0433125305331253073b3b3c0802000009ffffff0a7b92f900018c0100010100a80b00000000000000000008596f70696e696e61009d0008000100040199cb12000f536563726574204469766973696f6ec8c6020002000008003b3b3c01a9931800044e455854000b416e74692d53637265656e75007b92f92200ffffff000198e6010000019b51ae03ffff03ffffffff00f36b4902640041eb0300330000000024424e097380680000003c00db01ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b200000024425fb6a7c0340000003c012e01010006299a10d21ae21a8d1ebc1a000901c19c6b02460e0e0300000004460e0e05460e0e0700000008c0c0c109e8f6080a38740700019b0100010100ff290000000000000000000b52616a612d416e616e7461009d0008000100020199883200095374726f6e676573746b1200c0c0c1080000000001a9a3180003444653000b44465320666f722046756e9101003874070800e8f6080004444086011a00425fb6a7c06600000024425f2171c0340000003c01a0010100069e0bb711971bd51cdd1c991a000901d6d3cb02768fe303464952043c4a7905d0d5ec073b3b3c0802000009ffffff0a7b92f90001910100010100b72700000000000150000000064e616f636c65009d0008000100040199cb12000f536563726574204469766973696f6ec8c6020002000008003b3b3c01a9931800044e455854000b416e74692d53637265656e75007b92f92200ffffff1501988c010000019b65e002ffff03ffffffff019db9a5024f00425f2171c066000000244200cbe806800000003c0121020100065be510f008dd08dc1b981c000501f7bc5502ffffff03ffffff043434d1053434d100018701000201008b0b0000000000015000000600aa01000000000000000000104578616c746174696f6e2d5b556c655d009d0008000100010197164276dba513e5000008491afb0000004200cbe80cc00000009cc0d388c000000000003c014801c1140000000000014b0000831300000006018e000790d4000000ff0000000100db4505aa2aee0100000050000790d3000000ff0000000100db4505aa2ae90100500007e42f00000010000100db7205aa2af000000100500007900e000000fe0000000100db4405aa2805000050000790db000000ff0000000100db4505aa2807000050000790da000000ff0000000100db4505aa2806000007000790d4f0030001000790d33b01010007e42fcd0100010007e39fe90100010007900e8c020100000790dbc4030100000790da4901000000000001000cc701d4
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20000,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 544863813840,
+      disposition: [Object],
+      look: [Object],
+      name: 'All-Shop',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 535826333904,
+      disposition: [Object],
+      look: [Object],
+      name: 'Pandra-Hect',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 543804227792,
+      disposition: [Object],
+      look: [Object],
+      name: 'Gard-Felios',
+      options: [],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 90700120272,
+      disposition: [Object],
+      look: [Object],
+      name: 'Ecarmel',
+      options: [Array],
+      sellType: 1
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 390281167056,
+      disposition: [Object],
+      look: [Object],
+      name: 'Erbo-one',
+      options: [],
+      sellType: 0
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+       33,  34,  46,
+       47,  61,  74,
+       77,  91, 104,
+      105, 118, 119
+    ],
+    positionsForDefenders: [
+      283, 296, 297,
+      311, 312, 325,
+      326, 340, 341,
+      354, 355, 369
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [],
+  mapId: 88213270,
+  obstacles: [],
+  statedElements: [],
+  subAreaId: 10
+}
+{ __type__: 'TreasureHuntGiveUpRequestMessage', questType: 0 }
+{ __type__: 'TreasureHuntFinishedMessage', questType: 0 }
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 116526530,
+      alignmentInfos: [Object],
+      contextualId: 20533674192,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Mau-ricette'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 101009715,
+      alignmentInfos: [Object],
+      contextualId: 177065427152,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Walt-dada'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16409357,
+      alignmentInfos: [Object],
+      contextualId: 298293395664,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Daft-Heart'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 76087652,
+      alignmentInfos: [Object],
+      contextualId: 274085707984,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Hei-hachis'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 52817606,
+      alignmentInfos: [Object],
+      contextualId: 39991967952,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Tinnarus'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      421, 434, 435,
+      449, 450, 463,
+      464, 478, 479,
+      492, 493, 507
+    ],
+    positionsForDefenders: [
+       25,  39,  40,
+       54,  66,  69,
+       79,  82,  94,
+      108, 109, 123
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 517202,
+      elementTypeId: 16,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 142087694,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 341,
+      elementId: 517048,
+      elementState: 0,
+      onCurrentMap: true
+    },
+    {
+      __type__: 'StatedElement',
+      elementCellId: 313,
+      elementId: 517202,
+      elementState: 0,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 1353,
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20003,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20002,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayGroupMonsterInformations',
+      alignmentSide: -1,
+      contextualId: -20001,
+      disposition: [Object],
+      hasAVARewardToken: false,
+      hasHardcoreDrop: false,
+      keyRingBonus: false,
+      look: [Object],
+      lootShare: -1,
+      staticInfos: [Object]
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 543332106448,
+      disposition: [Object],
+      look: [Object],
+      name: 'Mge-Fragment-Shop',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 77499203792,
+      disposition: [Object],
+      look: [Object],
+      name: 'Sadi-roxxe',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 37287690448,
+      disposition: [Object],
+      look: [Object],
+      name: 'Threwen',
+      options: [Array],
+      sellType: 0
+    },
+    {
+      __type__: 'GameRolePlayMerchantInformations',
+      contextualId: 174052278480,
+      disposition: [Object],
+      look: [Object],
+      name: 'Ghost-Star',
+      options: [],
+      sellType: 0
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      123, 149, 175,
+      244, 295, 344,
+      348, 351, 426,
+      477, 491, 497
+    ],
+    positionsForDefenders: [
+      174, 233, 235,
+      245, 264, 331,
+      362, 372, 399,
+      422, 442, 465
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: true,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElementWithAgeBonus',
+      ageBonus: 0,
+      disabledSkills: [],
+      elementId: 506454,
+      elementTypeId: 254,
+      enabledSkills: [Array],
+      onCurrentMap: false
+    }
+  ],
+  mapId: 142088206,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 239,
+      elementId: 506454,
+      elementState: 0,
+      onCurrentMap: false
+    }
+  ],
+  subAreaId: 68
+}
+error 038a06014441a0f0341c0000000000000a002442527b7b00340000003c010b02ff04000000040180090302286f8d03ffc43004766443000178000102000200063cb110891a980943d907000901f9f2da02d656370380090304286f8d05ffc43007f76ee80800000009fefdfa0aeba71900019601000000064d6f75706861009d0008000000020199fd3900105468652d77697a6172642d6f662d4f7a7821000000001000f76ee801a9e206000456616c68000856616c68616c6c61e40100eba7191200fefdfa0006ba0a8300000042527b7b0061c0000024424e097380680000003c011800ff04000000040140e0d00240e0d003f8bf010476644300017800010200020004788c11ac02b201000501ebdec0024f4d340375151604ebdec0053d472b0001a0010000000a4a657373792d726f7465009d000800000000010104c8000000424e097380b2000000a0c0d3888000000000003c009d07c21c0000000000018c01000000008c000011c404003e0005000001200200369f020000000000016e0000000011c3020035c31c000000000000000000000126020038d702000000000001aa010000000011c305003bc31c0000000000000000000011c4010038c21c0000000000018c010000ffff00a0c0d3884000000000003c004903d702000000000001aa01000000008c0000012604003c0003000001200200369f020000000000016e0000000011c4010038c21c0000000000018c010000000011c4050040c21c0000000000018c010000ffff00a0c0d3880000000000003c002a05cf02000000000000000000008c0000016e0300280000ffff00814254117480340000003c01d4020100066f8511c118d81c53be1a0009018a530002533d1c03664a2004dc862705b6202007fb911a08dd000409fefdfa0aeba71900018c0100010500ed0100000009018a530002533d1c03664a2004dc862705b6202007fb911a08dd000409fefdfa0aeba71900000000000f4873692d4d697373746973616372690000020199ec2a00164c657320426f75646575727320496e6665726e617578c83400dd00040100fb911a01a9e206000456616c68000856616c68616c6c61e40100eba7191200fefdfa000081425f461d00340000003c01e0010100065bea10ca1c871edd1c881e000901ffc36702b7b7b803a8000304a40003058e000207000000088d6f1b090104050afcf7ef0001870100010500ed010000000901ffc36702b7b7b803a8000304a40003058e000207000000088d6f1b090104050afcf7ef00000000000b4165726f7a78617572656c03000201999e6a00064d656d6f7279468001008d6f1b180000000001a98602000354654100144465626175636865727920546561205061727479db0100fcf7ef0f00010405000081425f7b9cc0340000003c00ff030100021efc0f000501f3bc5e02ffffce0343342104ffd93605a6630900017800010500ed010000000501f3bc5e02ffffce0343342104ffd93605a6630900000000000e4d67652d43617274652d53686f700000000081425f651e40340000003c0199020100026f8411000501b36c320244cdcc03304d4d04339a990587d7d600018c0100010500ed010000000501b36c320244cdcc03304d4d04339a990587d7d600000000000d4c657869736465636869626f740300000081424dbfb300680000003c01a9038429000000000000000202000200060be50fe61de81de71dd118000901c8983d02b0b0b003ffffff04ffffff05000000075ca25f0816541609e0f5da0a19626300017d00000500ed0100000002038eb9cb04fbdc7b000000000007506c61792d65720300020199ce10000c4d6167696b2052696b74757392330016541604005ca25f01a980180003544c48000f546865204c6173742048656176656eb801001962631800e0f5da000003018e0007ba56000000fe000100db4405aa51140000010000005000076a8cffffffff000100dbb80105aa5113000001018e0007ba4b000000ff0000000100db45
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 86645968,
+      alignmentInfos: [Object],
+      contextualId: 542273962192,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Ne-yam'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      342, 369, 370,
+      371, 396, 397,
+      399, 400, 425,
+      426, 427, 454
+    ],
+    positionsForDefenders: [
+      355, 356, 382,
+      383, 384, 385,
+      410, 411, 412,
+      413, 439, 440
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505622,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484927,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128451073,
+  obstacles: [],
+  statedElements: [],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      342, 369, 370,
+      371, 396, 397,
+      399, 400, 425,
+      426, 427, 454
+    ],
+    positionsForDefenders: [
+      355, 356, 382,
+      383, 384, 385,
+      410, 411, 412,
+      413, 439, 440
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505622,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484927,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128451073,
+  obstacles: [],
+  statedElements: [],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 86471075,
+      alignmentInfos: [Object],
+      contextualId: 526761787600,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Osapil'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 39014239,
+      alignmentInfos: [Object],
+      contextualId: 534138978512,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Ultime-mort'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20002,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2348,
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcWithQuestInformations',
+      contextualId: -20003,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2345,
+      questFlag: [Object],
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20001,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2347,
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2346,
+      sex: true,
+      specialArtworkId: 0
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      375, 388, 389,
+      403, 429, 442,
+      443, 457, 483,
+      496, 497, 511
+    ],
+    positionsForDefenders: [
+      187, 201, 202,
+      215, 241, 255,
+      256, 269, 295,
+      309, 310, 323
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505623,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 485495,
+      elementTypeId: 236,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 485497,
+      elementTypeId: 237,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505624,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484993,
+      elementTypeId: 231,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128452097,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 398,
+      elementId: 485495,
+      elementState: 0,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 68
+}
+{
+  __type__: 'MapComplementaryInformationsDataMessage',
+  actors: [
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 112855683,
+      alignmentInfos: [Object],
+      contextualId: 317524279504,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Moupha'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 86471075,
+      alignmentInfos: [Object],
+      contextualId: 526761787600,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Osapil'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 39014239,
+      alignmentInfos: [Object],
+      contextualId: 534138978512,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Ultime-mort'
+    },
+    {
+      __type__: 'GameRolePlayCharacterInformations',
+      accountId: 16843976,
+      alignmentInfos: [Object],
+      contextualId: 258015166672,
+      disposition: [Object],
+      humanoidInfo: [Object],
+      look: [Object],
+      name: 'Jessy-rote'
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20002,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2348,
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcWithQuestInformations',
+      contextualId: -20003,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2345,
+      questFlag: [Object],
+      sex: false,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20001,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2347,
+      sex: true,
+      specialArtworkId: 0
+    },
+    {
+      __type__: 'GameRolePlayNpcInformations',
+      contextualId: -20000,
+      disposition: [Object],
+      look: [Object],
+      npcId: 2346,
+      sex: true,
+      specialArtworkId: 0
+    }
+  ],
+  fightStartPositions: {
+    __type__: 'FightStartingPositions',
+    positionsForChallengers: [
+      375, 388, 389,
+      403, 429, 442,
+      443, 457, 483,
+      496, 497, 511
+    ],
+    positionsForDefenders: [
+      187, 201, 202,
+      215, 241, 255,
+      256, 269, 295,
+      309, 310, 323
+    ]
+  },
+  fights: [],
+  hasAggressiveMonsters: false,
+  houses: [],
+  interactiveElements: [
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505623,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 485495,
+      elementTypeId: 236,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 485497,
+      elementTypeId: 237,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 505624,
+      elementTypeId: -1,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    },
+    {
+      __type__: 'InteractiveElement',
+      disabledSkills: [],
+      elementId: 484993,
+      elementTypeId: 231,
+      enabledSkills: [Array],
+      onCurrentMap: true
+    }
+  ],
+  mapId: 128452097,
+  obstacles: [],
+  statedElements: [
+    {
+      __type__: 'StatedElement',
+      elementCellId: 398,
+      elementId: 485495,
+      elementState: 0,
+      onCurrentMap: true
+    }
+  ],
+  subAreaId: 68
+}

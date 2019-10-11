@@ -14,7 +14,7 @@ let handleMapInfo = async msg => {
   console.log(`handling ${msg.__type__}`);
   console.log(`mapId: ${msg.mapId}`);
   currentMap = await getCoordinates(msg.mapId); //TODO might need to avoid global vars
-  console.log(coordinates);
+  console.log(currentMap);
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) console.log("Indice trouvé !");
 };
