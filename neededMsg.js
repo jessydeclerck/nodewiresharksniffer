@@ -1,5 +1,6 @@
 module.exports = {
   msgIds: [
+    225,
     226,
     6491,
     6509,
@@ -17,6 +18,7 @@ module.exports = {
     6498
   ],
   msgName: {
+    "225": "MapInfoRequestMsg",
     "226": "MapInfo",
     "6491": "TreasureHuntAvailableRetryCountUpdateMessage",
     "6509": "hanleTreasureHuntDigRequestAnswerFailedMessage",

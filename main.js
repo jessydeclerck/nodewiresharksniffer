@@ -29,7 +29,6 @@ const tsharkParams = [
   "-e",
   "tcp.payload",
   "-o", //https://www.wireshark.org/docs/dfref/t/tcp.html see not captured flag tcp.analysis.lost_segment
-  // "ip.defragment:true",
   "tcp.desegment_tcp_streams:true", //promiscuous mode might help
   "port",
   "5555"
@@ -68,7 +67,7 @@ oboe(tsharkProcess.stdout).node("layers", async data => {
     if (!msgIds.includes(msgId)) return;
     let context = getContext(srcport);
     let decodedMessage = await decodePayload(dataPayload, context);
-    console.log(decodedMessage);
+    // console.log(decodedMessage);
     treasureHelper.handleData(decodedMessage);
   }
 });
@@ -80,15 +79,12 @@ tsharkProcess.on("close", code => {
 });
 
 function handleSplitMsg(dataPayload) {
-  //TODO decode if total length without header is equal to some of messages length
   const dataLenLen = payloadReader.getDataLenLen(
     payloadReader.getHeaderFromPayload(dataPayload)
   );
   const HEADER_SIZE = MSGID_DATALEN_SIZE + dataLenLen;
   let dataLen = payloadReader.readDataLen(dataPayload);
   let dataPayloadLen = Buffer.byteLength(dataPayload, "hex") - HEADER_SIZE;
-  // console.log(`dataLength: ${dataLen}`);
-  // console.log(`payload length without header length: ${dataPayloadLen}`);
   if (!dataLen || dataLen == 0 || dataPayloadLen >= dataLen) return; //msg isn't split
   //msg is splitted
   splittedMsgBuilder.initSplittedMsg(dataPayload, dataLen + HEADER_SIZE);

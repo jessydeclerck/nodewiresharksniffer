@@ -10,7 +10,7 @@ module.exports = {
     let header = getHeader(buffer);
     let dataLenLen = this.getDataLenLen(header);
     if(dataLenLen == 0) return 0;
-    console.log(`payload length: ${buffer.byteLength}`);
+    // console.log(`payload length: ${buffer.byteLength}`);
     return buffer.readUIntBE(HEADER_OFFSET, dataLenLen);
   },
   getHeaderFromPayload: function(payload) {
