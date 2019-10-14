@@ -40,7 +40,7 @@ function isMapToGo(map) {
 async function getCoordinates(mapId) {
   try {
     const response = await axios.get(
-      `https://i18napi.herokuapp.com/mapposition/${mapId}`
+      `http://vps408293.ovh.net:8080/mapposition/${mapId}`
     );
     return response.data;
   } catch (err) {

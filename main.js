@@ -23,7 +23,7 @@ const tsharkParams = [
   "-T",
   "json",
   "-ni",
-  "2",
+  "any",
   "-e",
   "tcp.srcport",
   "-e",
@@ -67,7 +67,7 @@ oboe(tsharkProcess.stdout).node("layers", async data => {
     if (!msgIds.includes(msgId)) return;
     let context = getContext(srcport);
     let decodedMessage = await decodePayload(dataPayload, context);
-    // console.log(decodedMessage);
+    console.log(decodedMessage);
     treasureHelper.handleData(decodedMessage);
   }
 });
@@ -94,7 +94,7 @@ async function decodePayload(payload, context) {
   let response;
   try {
     response = await axios.post(
-      "https://webd2decoder.herokuapp.com/decoder/".concat(context),
+      "http://vps408293.ovh.net:5000/decoder/".concat(context),
       payload
     );
   } catch (err) {
