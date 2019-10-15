@@ -76,8 +76,9 @@ let dispatcher = {
   MapInformationsRequestMessage: updateCurrentMap,
   TreasureHuntMessage: handleTreasureHuntMessage,
   TreasureHuntFlagRequestMessage : function(){console.log("Requesting new indice")},
+  TreasureHuntFlagRequestAnswerMessage : function(){console.log("Requesting new indice ok")},
   TreasureHuntDigRequestAnswerMessage : function(){console.log("Requesting dig")},
-  TreasureHuntFlagRequestAnswerMessage : function(){console.log("Requesting new indice ok")}
+  TreasureHuntDigRequestMessage : function(){console.log("Requesting dig ok")}
 };
 
 let getPoiSolution = async (startMap, poiId, directionId) => {
