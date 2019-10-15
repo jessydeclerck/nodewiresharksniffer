@@ -6,6 +6,8 @@ module.exports = {
   }
 };
 
+const labelBaseUri = "http://vps408293.ovh.net:8080";
+
 let currentMap, mapToGo, npcIdToFind;
 let sizeStepList;
 
@@ -37,6 +39,7 @@ let updateCurrentMap = async msg => {
   console.log(currentMap);
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) console.log("Indice trouvé !");
+  //TODO display remaining distance 
 };
 
 let handleTreasureHuntMessage = async msg => {
@@ -45,12 +48,11 @@ let handleTreasureHuntMessage = async msg => {
     checkPointCurrent,
     checkPointTotal,
     flags,
-    knowStepsList,
+    knownStepsList,
     questType,
     startMapId,
     totalStepCount
   } = msg;
-  
 };
 
 let dispatcher = {
@@ -59,18 +61,42 @@ let dispatcher = {
   TreasureHuntMessage: handleTreasureHuntMessage
 };
 
+let getPoiSolution = async (startMap, poiId, direction) => {
+  console.log(`Looking for ${getPoiLabel(poiId)}`);
+
+
+};
+
 function isMapToGo(map) {
   return map.posX == mapToGo.posX && map.posY == mapToGo.posY;
 }
 
-async function getCoordinates(mapId) {
+let getCoordinates = async mapId => {
   try {
-    const response = await axios.get(
-      `http://vps408293.ovh.net:8080/mapposition/${mapId}`
-    );
+    const response = await axios.get(`${labelBaseUri}/mapposition/${mapId}`);
     return response.data;
   } catch (err) {
     console.log(err);
   }
   return "";
-}
+};
+
+let getPoiLabel = async poiId => {
+  try {
+    const response = await axios.get(`${labelBaseUri}/poi/${poiId}`);
+    return response.data.label;
+  } catch (err) {
+    console.log(err);
+  }
+  return "";
+};
+
+let getNpcLabel = async npcId => {
+  try {
+    const response = await axios.get(`${labelBaseUri}/npc/${npcId}`);
+    return response.data.label;
+  } catch (err) {
+    console.log(err);
+  }
+  return "";
+};
