@@ -25,7 +25,7 @@ const tsharkParams = [
   "-T",
   "json",
   "-ni",
-  "2",
+  "2", //TODO interface to choose it or determine it programmaticaly
   "-e",
   "tcp.srcport",
   "-e",
