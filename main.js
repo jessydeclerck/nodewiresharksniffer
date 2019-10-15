@@ -1,11 +1,10 @@
 const { spawn } = require("child_process");
-const oboe = require("oboe");
-const _ = require("lodash");
 const axios = require("axios");
 const payloadReader = require("./payloadReader");
 const msgIds = require("./neededMsg").msgIds;
 const treasureHelper = require("./treasureHelper");
 const splittedMsgBuilder = require("./splittedMsgBuilder");
+const JSONStream = require("JSONStream");
 /**
  * on Linux, Unix, *BSD you can use
 
@@ -20,10 +19,12 @@ You can get the interface number with
 dumpcap -D -M
  */
 const tsharkParams = [
+  "-Y",
+  "tcp.len > 0",
   "-T",
   "json",
   "-ni",
-  "any",
+  "4",
   "-e",
   "tcp.srcport",
   "-e",
@@ -31,7 +32,7 @@ const tsharkParams = [
   "-o", //https://www.wireshark.org/docs/dfref/t/tcp.html see not captured flag tcp.analysis.lost_segment
   "tcp.desegment_tcp_streams:true", //promiscuous mode might help
   "port",
-  "5555"
+  "443",
 ];
 let tsharkProcess;
 let tsharkBinName = "tshark";
@@ -39,6 +40,7 @@ if (process.platform === "win32") {
   tsharkBinName = "tshark.exe";
 }
 
+let stream = JSONStream.parse('._source.*');
 tsharkProcess = spawn("tshark", tsharkParams);
 
 tsharkProcess.on("error", err => {
@@ -47,12 +49,14 @@ tsharkProcess.on("error", err => {
 
 const MSGID_DATALEN_SIZE = 2;
 
-oboe(tsharkProcess.stdout).node("layers", async data => {
+
+tsharkProcess.stdout.pipe(stream);
+
+stream.on('data', async data => {
   let srcport = data["tcp.srcport"];
   let payload = data["tcp.payload"];
-
   if (payload) {
-    let dataPayload = payload[0].replace(/:/g, "");
+    let dataPayload = payload[0];
     if (splittedMsgBuilder.isSplittedMsgWaiting()) {
       dataPayload = splittedMsgBuilder.tryAppendMsg(dataPayload);
       if (Buffer.byteLength(dataPayload, "hex") >= splittedMsgBuilder.getTotalLength()) {
