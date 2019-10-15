@@ -2,6 +2,7 @@ const axios = require("axios");
 module.exports = {
   handleData: function(msg) {
     msgType = msg.__type__;
+    console.log(msgType);
     dispatcher[msgType](msg);
   }
 };
@@ -9,21 +10,18 @@ module.exports = {
 const labelBaseUri = "http://vps408293.ovh.net:8080";
 
 let currentMap, mapToGo, npcIdToFind;
-let sizeStepList;
 
 //TODO should be use for phorreur only ?
 let handleMapInfo = async msg => {
-  console.log("handle map info !");
-  console.log(`handling ${msg.__type__}`);
-  console.log(`mapId: ${msg.mapId}`);
-
-  if (false) {
+  if (npcIdToFind) {
     //TODO if looking for npc
+    console.log("We're looking for a phorreur");
     msg.actors
       .filter(info => info.__type__ == "GameRolePlayTreasureHintInformations")
       .forEach(hintInfo => {
         if (hintInfo.npcId === npcIdToFind) {
-          console.log("Phorreur trouvé !");
+          console.log("Phorreur found !");
+          delete npcIdToFind;
         }
       });
   }
@@ -35,6 +33,7 @@ let updateCurrentMap = async msg => {
   console.log(currentMap);
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) console.log("Indice trouvé !");
+  delete mapToGo;
   //TODO display remaining distance
 };
 
@@ -49,16 +48,43 @@ let handleTreasureHuntMessage = async msg => {
     startMapId,
     totalStepCount
   } = msg;
+  //TODO promise.all
+  let startMap = await getCoordinates(startMapId);
+  lastPoi = knownStepsList[knownStepsList.length -1];
+  if(lastPoi.__type__ === "TreasureHuntStepFollowDirectionToPOI"){
+    console.log("We're looking for a point of interest");
+    if(knownStepsList.length > 1) startMap = currentMap;
+    if(knownStepsList.length == totalStepCount) return;
+    
+    let poiSolution = await getPoiSolution(startMap, lastPoi.poiLabelId, lastPoi.direction);
+    mapToGo = {
+      poiId : poiSolution.n,
+      posX : poiSolution.x,
+      posY : poiSolution.y,
+      distance : poiSolution.d,
+      direction : getDirection(lastPoi.direction)
+    }
+    console.log(mapToGo);
+  } else if (lastPoi.__type__ === "TreasureHuntStepFollowDirectionToHint"){
+    console.log("We're looking for a phorreur");
+    npcIdToFind = lastPoi.npcId;
+  }
 };
 
 let dispatcher = {
   MapComplementaryInformationsDataMessage: handleMapInfo,
   MapInformationsRequestMessage: updateCurrentMap,
-  TreasureHuntMessage: handleTreasureHuntMessage
+  TreasureHuntMessage: handleTreasureHuntMessage,
+  TreasureHuntFlagRequestMessage : function(){console.log("Requesting new indice")},
+  TreasureHuntDigRequestAnswerMessage : function(){console.log("Requesting dig")},
+  TreasureHuntFlagRequestAnswerMessage : function(){console.log("Requesting new indice ok")}
 };
 
 let getPoiSolution = async (startMap, poiId, directionId) => {
-  console.log(`Looking for ${getPoiLabel(poiId)}`);
+  console.log("Looking for" + getPoiLabel(poiId));
+  console.log(startMap);
+  console.log(poiId);
+  console.log(directionId);
   const response = await axios.get(
     `https://dofus-map.com/huntTool/getData.php?x=${startMap.posX}&y=${
       startMap.posY

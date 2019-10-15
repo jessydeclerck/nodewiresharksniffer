@@ -72,7 +72,7 @@ stream.on('data', async data => {
     if (!msgIds.includes(msgId)) return;
     let context = getContext(srcport);
     let decodedMessage = await decodePayload(dataPayload, context);
-    // console.log(decodedMessage);
+    if(msgId != 226) console.log(decodedMessage);
     treasureHelper.handleData(decodedMessage);
   }
 });
