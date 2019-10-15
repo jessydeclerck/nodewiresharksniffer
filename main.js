@@ -57,7 +57,7 @@ stream.on('data', async data => {
   let srcport = data["tcp.srcport"];
   let payload = data["tcp.payload"];
   if (payload) {
-    let dataPayload = payload[0];
+    let dataPayload = payload[0].replace(/:/g, "");;
     if (splittedMsgBuilder.isSplittedMsgWaiting()) {
       dataPayload = splittedMsgBuilder.tryAppendMsg(dataPayload);
       if (Buffer.byteLength(dataPayload, "hex") >= splittedMsgBuilder.getTotalLength()) {
