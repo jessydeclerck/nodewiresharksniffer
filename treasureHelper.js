@@ -27,10 +27,6 @@ let handleMapInfo = async msg => {
         }
       });
   }
-  // currentMap = await getCoordinates(msg.mapId); //TODO might need to avoid global vars and use getters and setters
-  // console.log(currentMap);
-  // if (!currentMap || !mapToGo) return;
-  // if (isMapToGo(currentMap)) console.log("Indice trouvé !");
 };
 
 let updateCurrentMap = async msg => {
@@ -39,7 +35,7 @@ let updateCurrentMap = async msg => {
   console.log(currentMap);
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) console.log("Indice trouvé !");
-  //TODO display remaining distance 
+  //TODO display remaining distance
 };
 
 let handleTreasureHuntMessage = async msg => {
@@ -61,10 +57,15 @@ let dispatcher = {
   TreasureHuntMessage: handleTreasureHuntMessage
 };
 
-let getPoiSolution = async (startMap, poiId, direction) => {
+let getPoiSolution = async (startMap, poiId, directionId) => {
   console.log(`Looking for ${getPoiLabel(poiId)}`);
-
-
+  const response = await axios.get(
+    `https://dofus-map.com/huntTool/getData.php?x=${startMap.posX}&y=${
+      startMap.posY
+    }&direction=${getDirection(directionId)}&world=0&language=fr`
+  );
+  const { hints } = response.data;
+  return hints.find(poiInfo => poiInfo.n === poiId);
 };
 
 function isMapToGo(map) {
@@ -99,4 +100,14 @@ let getNpcLabel = async npcId => {
     console.log(err);
   }
   return "";
+};
+
+let getDirection = directionId => {
+  let directions = {
+    "0": "right",
+    "2": "bottom",
+    "4": "left",
+    "6": "top"
+  };
+  return directions[directionId];
 };
