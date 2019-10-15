@@ -19,12 +19,13 @@ You can get the interface number with
 dumpcap -D -M
  */
 const tsharkParams = [
+  "-l",
   "-Y",
   "tcp.len > 0",
   "-T",
   "json",
   "-ni",
-  "4",
+  "2",
   "-e",
   "tcp.srcport",
   "-e",
@@ -32,7 +33,7 @@ const tsharkParams = [
   "-o", //https://www.wireshark.org/docs/dfref/t/tcp.html see not captured flag tcp.analysis.lost_segment
   "tcp.desegment_tcp_streams:true", //promiscuous mode might help
   "port",
-  "443",
+  "5555",
 ];
 let tsharkProcess;
 let tsharkBinName = "tshark";
@@ -71,7 +72,7 @@ stream.on('data', async data => {
     if (!msgIds.includes(msgId)) return;
     let context = getContext(srcport);
     let decodedMessage = await decodePayload(dataPayload, context);
-    console.log(decodedMessage);
+    // console.log(decodedMessage);
     treasureHelper.handleData(decodedMessage);
   }
 });
