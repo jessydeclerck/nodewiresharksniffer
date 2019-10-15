@@ -5,6 +5,7 @@ const msgIds = require("./neededMsg").msgIds;
 const treasureHelper = require("./treasureHelper");
 const splittedMsgBuilder = require("./splittedMsgBuilder");
 const JSONStream = require("JSONStream");
+const indicesLoader = require("./indicesLoader");
 /**
  * on Linux, Unix, *BSD you can use
 
@@ -25,7 +26,7 @@ const tsharkParams = [
   "-T",
   "json",
   "-ni",
-  "2", //TODO interface to choose it or determine it programmaticaly
+  "any", //TODO interface to choose it or determine it programmaticaly
   "-e",
   "tcp.srcport",
   "-e",
@@ -35,14 +36,11 @@ const tsharkParams = [
   "port",
   "5555",
 ];
-let tsharkProcess;
-let tsharkBinName = "tshark";
-if (process.platform === "win32") {
-  tsharkBinName = "tshark.exe";
-}
 
 let stream = JSONStream.parse('._source.*');
-tsharkProcess = spawn("tshark", tsharkParams);
+indicesLoader.loadIndices();
+
+let tsharkProcess = spawn("tshark", tsharkParams);
 
 tsharkProcess.on("error", err => {
   console.error("error while starting tshark", err);

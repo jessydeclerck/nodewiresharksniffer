@@ -13,8 +13,8 @@ module.exports = {
     6487,
     6499,
     6486,
-    6489,
-    6488,
+    // 6489,
+    // 6488,
     6498
   ],
   msgName: {
@@ -31,8 +31,8 @@ module.exports = {
     "6487": "TreasureHuntGiveUpRequestMessage",
     "6499": "TreasureHuntLegendaryRequestMessage",
     "6486": "TreasureHuntMessage",
-    "6489": "TreasureHuntRequestAnswerMessage",
-    "6488": "TreasureHuntRequestMessage",
+    // "6489": "TreasureHuntRequestAnswerMessage",
+    // "6488": "TreasureHuntRequestMessage",
     "6498": "TreasureHuntShowLegendaryUIMessage"
   }
 };

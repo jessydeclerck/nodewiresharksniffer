@@ -1,0 +1,823 @@
+Capturing on 'any'
+{ __type__: 'GuildGetInformationsMessage', infoType: 6 }
+{
+  __type__: 'TaxCollectorListMessage',
+  fightersInformations: [],
+  infoType: 6,
+  informations: [],
+  nbcollectorMax: 1
+}
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 258015166672,
+  forcedDirection: 6,
+  keyMovements: [ 221, 236, 250, 265 ]
+}
+error 0ed900003a773e000210dd110941a0f0301c0000004a8f611b51a8af655a8661bd6ee0342928fa9442be2e453ad37ce86dc84b361bd9cb82e0a5174b8560c6846c7b546f4a
+
+{ __type__: 'BasicNoOperationMessage' }
+{
+  __type__: 'CurrentMapMessage',
+  mapId: 142088718,
+  mapKey: '649ae451ca33ec53bbcbcc33becf15f4'
+}
+{ __type__: 'BasicNoOperationMessage' }
+{ __type__: 'ChangeMapMessage', autopilot: false, mapId: 142088718 }
+{ __type__: 'GameMapMovementConfirmMessage' }
+{ __type__: 'MapInformationsRequestMessage', mapId: 142088718 }
+MapInformationsRequestMessage
+update current map
+{ id: 142088718, posX: -25, posY: -36 }
+MapComplementaryInformationsDataMessage
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: -20001,
+  forcedDirection: 5,
+  keyMovements: [ 85, 98 ]
+}
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 258015166672,
+  forcedDirection: 0,
+  keyMovements: [
+    252, 238, 239,
+    254, 268, 283,
+    297, 325, 340,
+    354, 355, 356
+  ]
+}
+error 0ed900003a8a48000770fc00ee10ef212911450162016441a0f0341c0000000ad2a35841ae02d61f48f1190a8bfc6190e1c2cbaf066c7b97e5059837f4d2edebb5a94f166b20ab4ac5471416bc0822
+
+{ __type__: 'BasicNoOperationMessage' }
+{ __type__: 'GameMapMovementConfirmMessage' }
+error 4e2500003a8e378cd51d93a2a92debdb83a9b3a9811e478367debf203d6fc8483ad34d18037ee7edba351c9166e3e3d53ece390daa0d5d5875adffcca095
+
+{ __type__: 'BasicNoOperationMessage' }
+{
+  __type__: 'InteractiveUsedMessage',
+  canMove: true,
+  duration: 0,
+  elemId: 486028,
+  entityId: 258015166672,
+  skillId: 184
+}
+{
+  __type__: 'CurrentMapMessage',
+  mapId: 128451073,
+  mapKey: '649ae451ca33ec53bbcbcc33becf15f4'
+}
+{ __type__: 'MapInformationsRequestMessage', mapId: 128451073 }
+MapInformationsRequestMessage
+update current map
+{ id: 128451073, posX: -25, posY: -36 }
+MapComplementaryInformationsDataMessage
+{
+  __type__: 'MountSetMessage',
+  mountData: {
+    __type__: 'MountClientData',
+    aggressivityMax: -10000,
+    ancestor: [
+      193, 192, 179,
+      176, 177, 178,
+      193, 196, 176,
+      179, 176, 177,
+      178, 176
+    ],
+    behaviors: [],
+    boostLimiter: 0,
+    boostMax: 240,
+    effectList: [ [Object], [Object] ],
+    energy: 18113,
+    energyMax: 30000,
+    experience: 5293061,
+    experienceForLevel: 1262750,
+    experienceForNextLevel: -1,
+    fecondationTime: -1,
+    harnessGID: 0,
+    id: 1741654,
+    isFecondationReady: false,
+    isRideable: true,
+    isWild: false,
+    level: 100,
+    love: 114,
+    loveMax: 10000,
+    maturity: 10000,
+    maturityForAdult: 10000,
+    maxPods: 3000,
+    model: 176,
+    name: 'vi-gaugro',
+    ownerId: 3936999,
+    reproductionCount: 2,
+    reproductionCountMax: 2,
+    serenity: 1169,
+    serenityMax: 10000,
+    sex: true,
+    stamina: 1238,
+    staminaMax: 10000,
+    useHarnessColors: false
+  }
+}
+{
+  __type__: 'ChatServerMessage',
+  channel: 5,
+  content: '48O M ₭ Dispo Offre en Or • • Je Prends TouT • • !!',
+  fingerprint: '9rgubn7k',
+  prefix: '',
+  senderAccountId: 126514196,
+  senderId: 532799619280,
+  senderName: 'Marhouum',
+  timestamp: 1571173559
+}
+{
+  __type__: 'GameRolePlayShowActorMessage',
+  informations: {
+    __type__: 'GameRolePlayCharacterInformations',
+    accountId: 131589421,
+    alignmentInfos: {
+      __type__: 'ActorAlignmentInformations',
+      alignmentGrade: 0,
+      alignmentSide: 0,
+      alignmentValue: 0,
+      characterPower: 538772111768
+    },
+    contextualId: 538772111568,
+    disposition: {
+      __type__: 'EntityDispositionInformations',
+      cellId: 305,
+      direction: 4
+    },
+    humanoidInfo: {
+      __type__: 'HumanInformations',
+      options: [Array],
+      restrictions: [Object],
+      sex: false
+    },
+    look: {
+      __type__: 'EntityLook',
+      bonesId: 3588,
+      indexedColors: [Array],
+      scales: [Array],
+      skins: [],
+      subentities: [Array]
+    },
+    name: 'Portel-gan'
+  }
+}
+{
+  __type__: 'GameRolePlayShowActorMessage',
+  informations: {
+    __type__: 'GameRolePlayCharacterInformations',
+    accountId: 23873888,
+    alignmentInfos: {
+      __type__: 'ActorAlignmentInformations',
+      alignmentGrade: 0,
+      alignmentSide: 0,
+      alignmentValue: 0,
+      characterPower: 33853931862
+    },
+    contextualId: 33853931728,
+    disposition: {
+      __type__: 'EntityDispositionInformations',
+      cellId: 494,
+      direction: 0
+    },
+    humanoidInfo: {
+      __type__: 'HumanInformations',
+      options: [Array],
+      restrictions: [Object],
+      sex: true
+    },
+    look: {
+      __type__: 'EntityLook',
+      bonesId: 639,
+      indexedColors: [Array],
+      scales: [Array],
+      skins: [],
+      subentities: [Array]
+    },
+    name: 'Tata-Nowel'
+  }
+}
+{
+  __type__: 'SetCharacterRestrictionsMessage',
+  actorId: 538772111568,
+  restrictions: {
+    __type__: 'ActorRestrictionsInformations',
+    cantAggress: false,
+    cantAttack: true,
+    cantAttackMonster: false,
+    cantBeAggressed: false,
+    cantBeAttackedByMutant: false,
+    cantBeChallenged: false,
+    cantBeMerchant: false,
+    cantChallenge: false,
+    cantChangeZone: false,
+    cantChat: false,
+    cantExchange: false,
+    cantMinimize: false,
+    cantMove: false,
+    cantRun: false,
+    cantSpeakToNPC: false,
+    cantTrade: false,
+    cantUseInteractive: false,
+    cantUseObject: false,
+    cantUseTaxCollector: false,
+    cantWalk8Directions: false,
+    forceSlowWalk: false
+  }
+}
+{
+  __type__: 'UpdateMapPlayersAgressableStatusMessage',
+  enable: [ 0 ],
+  playerIds: [ 538772111568 ]
+}
+{
+  __type__: 'SetCharacterRestrictionsMessage',
+  actorId: 33853931728,
+  restrictions: {
+    __type__: 'ActorRestrictionsInformations',
+    cantAggress: false,
+    cantAttack: true,
+    cantAttackMonster: false,
+    cantBeAggressed: false,
+    cantBeAttackedByMutant: false,
+    cantBeChallenged: false,
+    cantBeMerchant: false,
+    cantChallenge: false,
+    cantChangeZone: false,
+    cantChat: false,
+    cantExchange: false,
+    cantMinimize: false,
+    cantMove: false,
+    cantRun: false,
+    cantSpeakToNPC: false,
+    cantTrade: false,
+    cantUseInteractive: false,
+    cantUseObject: false,
+    cantUseTaxCollector: false,
+    cantWalk8Directions: false,
+    forceSlowWalk: false
+  }
+}
+{
+  __type__: 'UpdateMapPlayersAgressableStatusMessage',
+  enable: [ 0 ],
+  playerIds: [ 33853931728 ]
+}
+error 0ed900003aa53e000271ee7124419ea008040000009de46f3cfc8fc798aa81b77cffa3d9bfbf835d793d8d05ca414f514bedab87411da85568910c208c0cce694efa2105df
+
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 258015166672,
+  forcedDirection: 7,
+  keyMovements: [
+    494, 481, 467,
+    454, 440, 427,
+    413, 400, 386,
+    373, 359, 346,
+    332, 319, 305,
+    292
+  ]
+}
+{
+  __type__: 'InteractiveUsedMessage',
+  canMove: true,
+  duration: 0,
+  elemId: 484927,
+  entityId: 538772111568,
+  skillId: 184
+}
+{ __type__: 'GameContextRemoveElementMessage', id: 538772111568 }
+{ __type__: 'GameMapMovementConfirmMessage' }
+{
+  __type__: 'CurrentMapMessage',
+  mapId: 128452097,
+  mapKey: '649ae451ca33ec53bbcbcc33becf15f4'
+}
+{
+  __type__: 'MountSetMessage',
+  mountData: {
+    __type__: 'MountClientData',
+    aggressivityMax: -10000,
+    ancestor: [
+      193, 192, 179,
+      176, 177, 178,
+      193, 196, 176,
+      179, 176, 177,
+      178, 176
+    ],
+    behaviors: [],
+    boostLimiter: 0,
+    boostMax: 240,
+    effectList: [ [Object], [Object] ],
+    energy: 18112,
+    energyMax: 30000,
+    experience: 5293061,
+    experienceForLevel: 1262750,
+    experienceForNextLevel: -1,
+    fecondationTime: -1,
+    harnessGID: 0,
+    id: 1741654,
+    isFecondationReady: false,
+    isRideable: true,
+    isWild: false,
+    level: 100,
+    love: 114,
+    loveMax: 10000,
+    maturity: 10000,
+    maturityForAdult: 10000,
+    maxPods: 3000,
+    model: 176,
+    name: 'vi-gaugro',
+    ownerId: 3936999,
+    reproductionCount: 2,
+    reproductionCountMax: 2,
+    serenity: 1169,
+    serenityMax: 10000,
+    sex: true,
+    stamina: 1238,
+    staminaMax: 10000,
+    useHarnessColors: false
+  }
+}
+{ __type__: 'MapInformationsRequestMessage', mapId: 128452097 }
+MapInformationsRequestMessage
+update current map
+{ id: 128452097, posX: -25, posY: -36 }
+MapComplementaryInformationsDataMessage
+{ __type__: 'BasicNoOperationMessage' }
+error 0ed900003ab74c000901ea71eb01a871aa019c719d016761686130419ea01804000000e968174491a6e198c4d0e297f3d878f5f4a9d3a9c2d525e6dde13189a26a81305570fd1e61a5f9cc4300f383ef214fff
+
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 258015166672,
+  forcedDirection: 7,
+  keyMovements: [
+    490, 491, 478,
+    464, 451, 437,
+    424, 425, 426,
+    412, 413, 400,
+    386, 373, 359,
+    360, 332, 304
+  ]
+}
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 279892263120,
+  forcedDirection: 1,
+  keyMovements: [ 495, 496 ]
+}
+{
+  __type__: 'TreasureHuntRequestAnswerMessage',
+  questType: 0,
+  result: 1
+}
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 279892263120,
+  forcedDirection: 0,
+  keyMovements: [ 496, 511, 525 ]
+}
+{ __type__: 'BasicNoOperationMessage' }
+{ __type__: 'GameMapMovementConfirmMessage' }
+{
+  __type__: 'InteractiveUsedMessage',
+  canMove: true,
+  duration: 0,
+  elemId: 484993,
+  entityId: 258015166672,
+  skillId: 254
+}
+error 4e2500003abc3781cd1d8097a92dc8edc3209b45c3ad4b606d76ed988902f4d66d3569893503e2d28480289307e8acbd9c549b062a6b7ba478baaacbd0d7
+
+{ __type__: 'BasicPingMessage', quiet: true }
+{ __type__: 'BasicPongMessage', quiet: true }
+{
+  __type__: 'ChatServerWithObjectMessage',
+  channel: 5,
+  content: '￼ a vendre',
+  fingerprint: '6p2g592j',
+  objects: [
+    {
+      __type__: 'ObjectItem',
+      effects: [Array],
+      objectGID: 14077,
+      objectUID: 20015169,
+      position: 63,
+      quantity: 1
+    }
+  ],
+  prefix: '',
+  senderAccountId: 35923070,
+  senderId: 349530685648,
+  senderName: 'Hurayasu',
+  timestamp: 1571173580
+}
+{
+  __type__: 'GameRolePlayShowActorMessage',
+  informations: {
+    __type__: 'GameRolePlayCharacterInformations',
+    accountId: 23873888,
+    alignmentInfos: {
+      __type__: 'ActorAlignmentInformations',
+      alignmentGrade: 0,
+      alignmentSide: 0,
+      alignmentValue: 0,
+      characterPower: 33853931862
+    },
+    contextualId: 33853931728,
+    disposition: {
+      __type__: 'EntityDispositionInformations',
+      cellId: 490,
+      direction: 7
+    },
+    humanoidInfo: {
+      __type__: 'HumanInformations',
+      options: [Array],
+      restrictions: [Object],
+      sex: true
+    },
+    look: {
+      __type__: 'EntityLook',
+      bonesId: 639,
+      indexedColors: [Array],
+      scales: [Array],
+      skins: [],
+      subentities: [Array]
+    },
+    name: 'Tata-Nowel'
+  }
+}
+{
+  __type__: 'UpdateMapPlayersAgressableStatusMessage',
+  enable: [ 0 ],
+  playerIds: [ 33853931728 ]
+}
+{
+  __type__: 'SetCharacterRestrictionsMessage',
+  actorId: 33853931728,
+  restrictions: {
+    __type__: 'ActorRestrictionsInformations',
+    cantAggress: false,
+    cantAttack: true,
+    cantAttackMonster: false,
+    cantBeAggressed: false,
+    cantBeAttackedByMutant: false,
+    cantBeChallenged: false,
+    cantBeMerchant: false,
+    cantChallenge: false,
+    cantChangeZone: false,
+    cantChat: false,
+    cantExchange: false,
+    cantMinimize: false,
+    cantMove: false,
+    cantRun: false,
+    cantSpeakToNPC: false,
+    cantTrade: false,
+    cantUseInteractive: false,
+    cantUseObject: false,
+    cantUseTaxCollector: false,
+    cantWalk8Directions: false,
+    forceSlowWalk: false
+  }
+}
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 33853931728,
+  forcedDirection: 7,
+  keyMovements: [
+    490, 491, 478,
+    464, 451, 437,
+    424, 425, 426,
+    412, 413, 400,
+    386, 373, 359,
+    360, 332, 304
+  ]
+}
+{
+  __type__: 'ChatServerMessage',
+  channel: 5,
+  content: 'Besoin De Kamas ??? "ACHETE" Offres En Or à -23% Prix Du Hdv : ' +
+    '&amp;#123; Items THL , Exo Pa-Pm-Po , Dofus , Fami , Stuff ' +
+    "Complet , LOT d'Items , Obvi , Etc &amp;#125; 550M Dispo .. Mp " +
+    'moi !!',
+  fingerprint: 'hsupbq9g',
+  prefix: '',
+  senderAccountId: 113202606,
+  senderId: 525814857936,
+  senderName: 'Madoneyman',
+  timestamp: 1571173592
+}
+{
+  __type__: 'InteractiveUsedMessage',
+  canMove: true,
+  duration: 0,
+  elemId: 484993,
+  entityId: 33853931728,
+  skillId: 253
+}
+{
+  __type__: 'GameRolePlayShowActorMessage',
+  informations: {
+    __type__: 'GameRolePlayCharacterInformations',
+    accountId: 80019,
+    alignmentInfos: {
+      __type__: 'ActorAlignmentInformations',
+      alignmentGrade: 0,
+      alignmentSide: 1,
+      alignmentValue: 1,
+      characterPower: 246501474712
+    },
+    contextualId: 246501474512,
+    disposition: {
+      __type__: 'EntityDispositionInformations',
+      cellId: 490,
+      direction: 7
+    },
+    humanoidInfo: {
+      __type__: 'HumanInformations',
+      options: [Array],
+      restrictions: [Object],
+      sex: true
+    },
+    look: {
+      __type__: 'EntityLook',
+      bonesId: 3588,
+      indexedColors: [Array],
+      scales: [Array],
+      skins: [],
+      subentities: [Array]
+    },
+    name: 'Helheim'
+  }
+}
+{
+  __type__: 'UpdateMapPlayersAgressableStatusMessage',
+  enable: [ 0 ],
+  playerIds: [ 246501474512 ]
+}
+{
+  __type__: 'SetCharacterRestrictionsMessage',
+  actorId: 246501474512,
+  restrictions: {
+    __type__: 'ActorRestrictionsInformations',
+    cantAggress: false,
+    cantAttack: true,
+    cantAttackMonster: false,
+    cantBeAggressed: false,
+    cantBeAttackedByMutant: false,
+    cantBeChallenged: false,
+    cantBeMerchant: false,
+    cantChallenge: false,
+    cantChangeZone: false,
+    cantChat: false,
+    cantExchange: false,
+    cantMinimize: false,
+    cantMove: false,
+    cantRun: false,
+    cantSpeakToNPC: false,
+    cantTrade: false,
+    cantUseInteractive: false,
+    cantUseObject: false,
+    cantUseTaxCollector: false,
+    cantWalk8Directions: false,
+    forceSlowWalk: false
+  }
+}
+{
+  __type__: 'ChatServerMessage',
+  channel: 6,
+  content: 'des metamob pour echange',
+  fingerprint: '06gku25i',
+  prefix: '',
+  senderAccountId: 130230176,
+  senderId: 537016729808,
+  senderName: 'Pako-xcut',
+  timestamp: 1571173602
+}
+{
+  __type__: 'ChatServerMessage',
+  channel: 5,
+  content: 'vend [Dofawa] 10M (il est spécial)',
+  fingerprint: 'vu8v789d',
+  prefix: '',
+  senderAccountId: 56089896,
+  senderId: 226517057744,
+  senderName: 'Zeldingh',
+  timestamp: 1571173607
+}
+{
+  __type__: 'ChatServerMessage',
+  channel: 5,
+  content: 'Achète Dofus Vulbis et Scintillant/Achete ' +
+    "Ceinture volkorne exo % feu et Voile d'encre exo " +
+    '% terre',
+  fingerprint: 'cv7y5z6m',
+  prefix: '',
+  senderAccountId: 47071084,
+  senderId: 545941749968,
+  senderName: 'Antiquity',
+  timestamp: 1571173612
+}
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 258015166672,
+  forcedDirection: 6,
+  keyMovements: [
+    304, 332, 360,
+    359, 373, 386,
+    400, 413, 412,
+    426, 425, 424,
+    437, 451, 464,
+    478, 491, 505,
+    504
+  ]
+}
+error 0ed900003ad34c0009213041683167419d319c41aa31a841f941f8419ea0180400000022678fc5f4c87fac67ee3e3cbf51a37d4c14f77dfbc8f47382b84da5d39e683dcddfc95a5d7a5c05d7af7c2e231cb20f
+
+{ __type__: 'SequenceNumberRequestMessage' }
+{ __type__: 'BasicNoOperationMessage' }
+{ __type__: 'SequenceNumberMessage', number: 29 }
+error 587d00003ad934003b32328f3ff1cab50704a8b0ecb0d55e37517bde5cdc6fc2afeb9935588d6687eb4d319a229e8018eac26101589b3535d70f6f
+
+{ __type__: 'BasicNoOperationMessage' }
+{
+  __type__: 'CurrentMapMessage',
+  mapId: 128451073,
+  mapKey: '649ae451ca33ec53bbcbcc33becf15f4'
+}
+{ __type__: 'GameMapMovementConfirmMessage' }
+{ __type__: 'MapInformationsRequestMessage', mapId: 128451073 }
+MapInformationsRequestMessage
+update current map
+{
+  __type__: 'MountSetMessage',
+  mountData: {
+    __type__: 'MountClientData',
+    aggressivityMax: -10000,
+    ancestor: [
+      193, 192, 179,
+      176, 177, 178,
+      193, 196, 176,
+      179, 176, 177,
+      178, 176
+    ],
+    behaviors: [],
+    boostLimiter: 0,
+    boostMax: 240,
+    effectList: [ [Object], [Object] ],
+    energy: 18111,
+    energyMax: 30000,
+    experience: 5293061,
+    experienceForLevel: 1262750,
+    experienceForNextLevel: -1,
+    fecondationTime: -1,
+    harnessGID: 0,
+    id: 1741654,
+    isFecondationReady: false,
+    isRideable: true,
+    isWild: false,
+    level: 100,
+    love: 114,
+    loveMax: 10000,
+    maturity: 10000,
+    maturityForAdult: 10000,
+    maxPods: 3000,
+    model: 176,
+    name: 'vi-gaugro',
+    ownerId: 3936999,
+    reproductionCount: 2,
+    reproductionCountMax: 2,
+    serenity: 1169,
+    serenityMax: 10000,
+    sex: true,
+    stamina: 1238,
+    staminaMax: 10000,
+    useHarnessColors: false
+  }
+}
+{ id: 128451073, posX: -25, posY: -36 }
+MapComplementaryInformationsDataMessage
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 258015166672,
+  forcedDirection: 3,
+  keyMovements: [
+    305, 333, 347,
+    360, 374, 387,
+    401, 414, 428,
+    441, 455, 468,
+    482, 495, 509,
+    522, 536
+  ]
+}
+error 0ed900003ae94000032131314d3218419ea00804000000654407c9c53b6ebbcf91696b4cbe4f417a170393372e514188cec8f004fcde9a678ee7f71f54212bcffc7e50bf97bcda
+
+error 4e2500003aed37bfcc1d8697a92d85f207493f5358724aabaa607e286a6ad80576bfbab87ac754c35d2234f93804fc7c4940487f6c38bbdc525548ed2830
+
+{
+  __type__: 'CurrentMapMessage',
+  mapId: 142088718,
+  mapKey: '649ae451ca33ec53bbcbcc33becf15f4'
+}
+{ __type__: 'GameMapMovementConfirmMessage' }
+{ __type__: 'BasicNoOperationMessage' }
+{
+  __type__: 'InteractiveUsedMessage',
+  canMove: true,
+  duration: 0,
+  elemId: 484927,
+  entityId: 258015166672,
+  skillId: 184
+}
+MapComplementaryInformationsDataMessage
+{ __type__: 'MapInformationsRequestMessage', mapId: 142088718 }
+MapInformationsRequestMessage
+update current map
+{ id: 142088718, posX: -25, posY: -36 }
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: -20001,
+  forcedDirection: 5,
+  keyMovements: [ 58, 43 ]
+}
+error 0ed900003afd4200042164119c21ab221b41a0f0341c000000971d520da3e1650d798871bfc09b54272e169026d7464cad400d14e210622c280509ef96e291db03d5570a53527b35e8
+
+error 0ed900003afd4200042164119c21ab221b41a0f0341c000000971d520da3e1650d798871bfc09b54272e169026d7464cad400d14e210622c280509ef96e291db03d5570a53527b35e8
+
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: 258015166672,
+  forcedDirection: 3,
+  keyMovements: [
+    356, 384,
+    412, 427,
+    455, 483,
+    511, 539
+  ]
+}
+{ __type__: 'GameMapMovementConfirmMessage' }
+{
+  __type__: 'CurrentMapMessage',
+  mapId: 142088719,
+  mapKey: '649ae451ca33ec53bbcbcc33becf15f4'
+}
+{ __type__: 'ChangeMapMessage', autopilot: false, mapId: 142088719 }
+{ __type__: 'BasicNoOperationMessage' }
+{ __type__: 'MapInformationsRequestMessage', mapId: 142088719 }
+MapInformationsRequestMessage
+update current map
+{
+  __type__: 'MountSetMessage',
+  mountData: {
+    __type__: 'MountClientData',
+    aggressivityMax: -10000,
+    ancestor: [
+      193, 192, 179,
+      176, 177, 178,
+      193, 196, 176,
+      179, 176, 177,
+      178, 176
+    ],
+    behaviors: [],
+    boostLimiter: 0,
+    boostMax: 240,
+    effectList: [ [Object], [Object] ],
+    energy: 18109,
+    energyMax: 30000,
+    experience: 5293061,
+    experienceForLevel: 1262750,
+    experienceForNextLevel: -1,
+    fecondationTime: -1,
+    harnessGID: 0,
+    id: 1741654,
+    isFecondationReady: false,
+    isRideable: true,
+    isWild: false,
+    level: 100,
+    love: 114,
+    loveMax: 10000,
+    maturity: 10000,
+    maturityForAdult: 10000,
+    maxPods: 3000,
+    model: 176,
+    name: 'vi-gaugro',
+    ownerId: 3936999,
+    reproductionCount: 2,
+    reproductionCountMax: 2,
+    serenity: 1169,
+    serenityMax: 10000,
+    sex: true,
+    stamina: 1238,
+    staminaMax: 10000,
+    useHarnessColors: false
+  }
+}
+{ id: 142088719, posX: -25, posY: -35 }
+MapComplementaryInformationsDataMessage
+{
+  __type__: 'GameMapMovementMessage',
+  actorId: -20000,
+  forcedDirection: 7,
+  keyMovements: [ 116, 102 ]
+}
