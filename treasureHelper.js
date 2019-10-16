@@ -6,7 +6,7 @@ const { spawn } = require("child_process");
 
 
 module.exports = {
-  handleData: function(msg) {
+  handleData: async function(msg) { //TODO handle interactiveusedmessage and TreasureHuntFlagRequestMessage => ask to activate and deactivate flag
     msgType = msg.__type__;
     console.log(msgType);
     dispatcher[msgType](msg);
@@ -28,7 +28,7 @@ let handleMapInfo = async msg => {
         if (hintInfo.npcId === npcIdToFind) {
           console.log("Phorreur found !".green);
           npcIdToFind = null;
-          spawn("./notifier/SnoreToast.exe", ["-m", "Hunt Helper", "-t", "Phorreur trouvé !", "-s", "Notification.Default"]);        }
+          spawn("./notifier/SnoreToast.exe", ["-t", "Hunt Helper", "-m", "Phorreur trouvé !", "-s", "Notification.Default"]);        }
       });
   }
 };
@@ -40,7 +40,7 @@ let updateCurrentMap = async msg => {
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) {
     console.log("Indice trouvé !".green);
-    spawn("./notifier/SnoreToast.exe", ["-m", "Hunt Helper", "-t", "Indice trouvé !", "-s", "Notification.Default"]);
+    spawn("./notifier/SnoreToast.exe", ["-t", "Hunt Helper", "-m", "Indice trouvé !", "-s", "Notification.Default"]);
   }
   //TODO display remaining distance
 };
@@ -59,7 +59,7 @@ let handleTreasureHuntMessage = async msg => {
   } = msg;
   //TODO promise.all
   let startMap;
-  if(flags.length == 0 && checkPointCurrent == 0){
+  if(flags.length == 0){
     startMap = await getCoordinates(startMapId);
   }else{
     startMap = currentMap;
@@ -81,10 +81,13 @@ let handleTreasureHuntMessage = async msg => {
     }
     console.log(mapToGo);
     npcIdToFind = null;
-    spawn("./notifier/SnoreToast.exe", ["-m", "Next Indice", "-t", `${mapToGo.distance} ${mapToGo.direction}`, "-s", "Notification.Default"]);
+    spawn("./notifier/SnoreToast.exe", ["-t", "Next Indice", "-m", `x: ${mapToGo.posX} y: ${mapToGo.posY} distance: ${mapToGo.distance} ${mapToGo.direction}`, "-s", "Notification.Default"]);
   } else if (lastPoi.__type__ === "TreasureHuntStepFollowDirectionToHint"){
     console.log("We're looking for a phorreur");
     npcIdToFind = lastPoi.npcId;
+    mapToGo = null;
+  } else if (lastPoi.__type__ === "TreasureHuntStepFight"){
+    npcIdToFind = null;
     mapToGo = null;
   }
 };
@@ -99,7 +102,8 @@ let dispatcher = {
   TreasureHuntDigRequestMessage : function(){console.log("Requesting dig ok")},
   TreasureHuntFinishedMessage : function(){currentMap, mapToGo, npcIdToFind = null; console.log("Treasure hunt finished")},
   TreasureHuntFlagRemoveRequestMessage : function(){console.log("Treasure flag removed")},
-  TreasureHuntRequestAnswerMessage : function(){console.log("New treasure hunt started")} //todo handle phorreur at start
+  TreasureHuntRequestAnswerMessage : function(){console.log("New treasure hunt started")},
+  TreasureHuntGiveUpRequestMessage : function(){console.log("Giving up treasure hunt")} //todo handle phorreur at start
 };
 
 let getPoiSolution = async (startMap, poiId, directionId) => {

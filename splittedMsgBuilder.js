@@ -4,6 +4,10 @@ let totalLength = 0;
 module.exports = {
     initSplittedMsg : function(msg, msgTotalLength) {
         // console.debug("Init splitted msg")
+        if(msgTotalLength > 10000){ //avoid block because of a reading error
+            console.log("Msg length is too long");
+            return;
+        }
         splittedMsg = msg;
         totalLength = msgTotalLength;
     },
@@ -15,7 +19,7 @@ module.exports = {
     },
     tryAppendMsg : function(msg){
         // console.debug("Trying to append msg");
-        // console.debug(`length after concat: ${Buffer.byteLength(splittedMsg.concat(msg), "hex")} vs totalLength expected: ${totalLength}`);
+        console.log(`length after concat: ${Buffer.byteLength(splittedMsg.concat(msg), "hex")} vs totalLength expected: ${totalLength}`);
         splittedMsg = splittedMsg.concat(msg);
         return splittedMsg;
     },

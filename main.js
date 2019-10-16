@@ -32,8 +32,8 @@ const tsharkParams = [
   "tcp.srcport",
   "-e",
   "tcp.payload",
-  "-o", //https://www.wireshark.org/docs/dfref/t/tcp.html see not captured flag tcp.analysis.lost_segment
-  "tcp.desegment_tcp_streams:true",
+  // "-o", //https://www.wireshark.org/docs/dfref/t/tcp.html see not captured flag tcp.analysis.lost_segment
+  // "tcp.desegment_tcp_streams:true",
   "port",
   "5555"
 ];
@@ -58,7 +58,7 @@ let startHelper = interfaceNumber => {
     let payload = data["tcp.payload"];
     if (payload) {
       let dataPayload = payload[0].replace(/:/g, "");
-      if (splittedMsgBuilder.isSplittedMsgWaiting()) {
+      if (splittedMsgBuilder.isSplittedMsgWaiting()) { //TODO might block app
         dataPayload = splittedMsgBuilder.tryAppendMsg(dataPayload);
         if (
           Buffer.byteLength(dataPayload, "hex") >=
@@ -75,7 +75,7 @@ let startHelper = interfaceNumber => {
       if (!msgIds.includes(msgId)) return;
       let context = getContext(srcport);
       let decodedMessage = await decodePayload(dataPayload, context);
-      if (msgId != 226) console.log(decodedMessage);
+      console.log(decodedMessage);
       treasureHelper.handleData(decodedMessage);
     }
   });
@@ -92,6 +92,7 @@ stdin.on("data", d => {
     return;
   }
   startHelper(d.toString().replace(/(\r\n|\n|\r)/gm, ""));
+  stdin.removeAllListeners();
 });
 
 const MSGID_DATALEN_SIZE = 2
