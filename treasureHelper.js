@@ -1,7 +1,8 @@
 const axios = require("axios");
 const indicesLoader = require("./indicesLoader");
 const colors = require('colors');
-const notifier = require("node-notifier");
+const { spawn } = require("child_process");
+
 
 
 module.exports = {
@@ -27,8 +28,7 @@ let handleMapInfo = async msg => {
         if (hintInfo.npcId === npcIdToFind) {
           console.log("Phorreur found !".green);
           npcIdToFind = null;
-          notifier.notify({title: "Hunt Helper", message: "Phorreur trouvé !", sound: false, wait: true});
-        }
+          spawn("./notifier/SnoreToast.exe", ["-m", "Hunt Helper", "-t", "Phorreur trouvé !", "-s", "Notification.Default"]);        }
       });
   }
 };
@@ -40,7 +40,7 @@ let updateCurrentMap = async msg => {
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) {
     console.log("Indice trouvé !".green);
-    notifier.notify({title: "Hunt Helper", message: "Indice trouvé !", sound: false, wait: true});
+    spawn("./notifier/SnoreToast.exe", ["-m", "Hunt Helper", "-t", "Indice trouvé !", "-s", "Notification.Default"]);
   }
   //TODO display remaining distance
 };
@@ -81,7 +81,7 @@ let handleTreasureHuntMessage = async msg => {
     }
     console.log(mapToGo);
     npcIdToFind = null;
-    notifier.notify({title: "Hunt Helper Next Indice", message: `${mapToGo.distance} ${mapToGo.direction}`, sound: false, wait: true});
+    spawn("./notifier/SnoreToast.exe", ["-m", "Next Indice", "-t", `${mapToGo.distance} ${mapToGo.direction}`, "-s", "Notification.Default"]);
   } else if (lastPoi.__type__ === "TreasureHuntStepFollowDirectionToHint"){
     console.log("We're looking for a phorreur");
     npcIdToFind = lastPoi.npcId;
