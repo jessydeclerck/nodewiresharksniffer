@@ -20,7 +20,8 @@ You can get the interface number with
 dumpcap -D -M
  */
 const tsharkParams = [
-  "-l",
+  "-l",// flush stdout after each packet
+  "-p",// disable promiscuous mode
   "-Y",
   "tcp.len > 0",
   "-T",
@@ -32,7 +33,7 @@ const tsharkParams = [
   "-e",
   "tcp.payload",
   "-o", //https://www.wireshark.org/docs/dfref/t/tcp.html see not captured flag tcp.analysis.lost_segment
-  "tcp.desegment_tcp_streams:true", //promiscuous mode might help
+  "tcp.desegment_tcp_streams:true",
   "port",
   "5555",
 ];
