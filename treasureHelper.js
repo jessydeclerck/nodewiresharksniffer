@@ -1,6 +1,8 @@
 const axios = require("axios");
 const indicesLoader = require("./indicesLoader");
 const colors = require('colors');
+const notifier = require("node-notifier");
+
 
 module.exports = {
   handleData: function(msg) {
@@ -25,7 +27,7 @@ let handleMapInfo = async msg => {
         if (hintInfo.npcId === npcIdToFind) {
           console.log("Phorreur found !".green);
           npcIdToFind = null;
-          
+          notifier.notify({title: "Hunt Helper", message: "Phorreur trouvé !", sound: false, wait: true});
         }
       });
   }
@@ -38,6 +40,7 @@ let updateCurrentMap = async msg => {
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) {
     console.log("Indice trouvé !".green);
+    notifier.notify({title: "Hunt Helper", message: "Indice trouvé !", sound: false, wait: true});
   }
   //TODO display remaining distance
 };
@@ -78,6 +81,7 @@ let handleTreasureHuntMessage = async msg => {
     }
     console.log(mapToGo);
     npcIdToFind = null;
+    notifier.notify({title: "Hunt Helper Next Indice", message: `${mapToGo.distance} ${mapToGo.direction}`, sound: false, wait: true});
   } else if (lastPoi.__type__ === "TreasureHuntStepFollowDirectionToHint"){
     console.log("We're looking for a phorreur");
     npcIdToFind = lastPoi.npcId;
