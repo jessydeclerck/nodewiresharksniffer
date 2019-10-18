@@ -7,12 +7,12 @@ const splittedMsgBuilder = require("./splittedMsgBuilder");
 const JSONStream = require("JSONStream");
 const indicesLoader = require("./indicesLoader");
 const readline = require("readline");
-
-let stream = JSONStream.parse();
+const path = require("path");
 
 let startHelper = () => {
+  let stream = JSONStream.parse();
   indicesLoader.loadIndices();
-  let snifferProcess = spawn("./sniffer/sniffer.exe");
+  let snifferProcess = spawn(path.join(__dirname,"sniffer", "sniffer.exe"));
 
   snifferProcess.stdout.pipe(process.stdout);
 
@@ -37,36 +37,36 @@ let startHelper = () => {
       }
     });
   });
+
+  stream.on("data", async data => {
+    let srcport = data["srcport"];
+    let dataPayload = data["payload"];
+    if (dataPayload) {
+      // let dataPayload = payload[0].replace(/:/g, "");
+      if (splittedMsgBuilder.isSplittedMsgWaiting()) {
+        dataPayload = splittedMsgBuilder.tryAppendMsg(dataPayload);
+        if (
+          Buffer.byteLength(dataPayload, "hex") >=
+          splittedMsgBuilder.getTotalLength()
+        ) {
+          splittedMsgBuilder.resetSplittedMsg();
+        }
+        if (splittedMsgBuilder.isSplittedMsgWaiting()) return;
+      } else {
+        handleSplitMsg(dataPayload);
+        if (splittedMsgBuilder.isSplittedMsgWaiting()) return;
+      }
+      let msgId = payloadReader.readMsgId(dataPayload);
+      if (!msgIds.includes(msgId)) return;
+      let context = getContext(srcport);
+      let decodedMessage = await decodePayload(dataPayload, context);
+      if (msgId != 226) console.log(decodedMessage);
+      treasureHelper.handleData(decodedMessage);
+    }
+  });
+
 };
 
-startHelper();
-
-stream.on("data", async data => {
-  let srcport = data["srcport"];
-  let dataPayload = data["payload"];
-  if (dataPayload) {
-    // let dataPayload = payload[0].replace(/:/g, "");
-    if (splittedMsgBuilder.isSplittedMsgWaiting()) {
-      dataPayload = splittedMsgBuilder.tryAppendMsg(dataPayload);
-      if (
-        Buffer.byteLength(dataPayload, "hex") >=
-        splittedMsgBuilder.getTotalLength()
-      ) {
-        splittedMsgBuilder.resetSplittedMsg();
-      }
-      if (splittedMsgBuilder.isSplittedMsgWaiting()) return;
-    } else {
-      handleSplitMsg(dataPayload);
-      if (splittedMsgBuilder.isSplittedMsgWaiting()) return;
-    }
-    let msgId = payloadReader.readMsgId(dataPayload);
-    if (!msgIds.includes(msgId)) return;
-    let context = getContext(srcport);
-    let decodedMessage = await decodePayload(dataPayload, context);
-    if (msgId != 226) console.log(decodedMessage);
-    treasureHelper.handleData(decodedMessage);
-  }
-});
 
 const MSGID_DATALEN_SIZE = 2;
 function handleSplitMsg(dataPayload) {
@@ -103,4 +103,9 @@ function getContext(srcport) {
     context = "fromserver";
   }
   return context;
+}
+
+module.exports = {
+  startHelper: startHelper,
+  testModule: () => console.log("module works")
 }
