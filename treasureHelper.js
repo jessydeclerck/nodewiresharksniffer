@@ -1,14 +1,13 @@
 const axios = require("axios");
 const indicesLoader = require("./indicesLoader");
 const colors = require('colors');
-const { spawn } = require("child_process");
 
 
 
 module.exports = {
   handleData: async function(msg) { //TODO handle interactiveusedmessage and TreasureHuntFlagRequestMessage => ask to activate and deactivate flag
     msgType = msg.__type__;
-    console.log(msgType);
+    // console.log(msgType);
     dispatcher[msgType](msg);
   }
 };
@@ -21,26 +20,24 @@ let currentMap, mapToGo, npcIdToFind;
 let handleMapInfo = async msg => {
   if (npcIdToFind) {
     //TODO if looking for npc
-    console.log("Looking map : looking for a phorreur");
+    console.log("Looking for a phorreur...".yellow);
     msg.actors
       .filter(info => info.__type__ == "GameRolePlayTreasureHintInformations")
       .forEach(hintInfo => {
         if (hintInfo.npcId === npcIdToFind) {
-          console.log("Phorreur found !".green);
+          console.log("Phorreur trouvé !".green);
           npcIdToFind = null;
-          spawn("./notifier/SnoreToast.exe", ["-t", "Hunt Helper", "-m", "Phorreur trouvé !", "-s", "Notification.Default"]);        }
+        }
       });
   }
 };
 
 let updateCurrentMap = async msg => {
-  console.log("update current map");
   currentMap = await getCoordinates(msg.mapId); //TODO might need to avoid global vars and use getters and setters
   console.log(currentMap);
   if (!currentMap || !mapToGo) return;
   if (isMapToGo(currentMap)) {
     console.log("Indice trouvé !".green);
-    spawn("./notifier/SnoreToast.exe", ["-t", "Hunt Helper", "-m", "Indice trouvé !", "-s", "Notification.Default"]);
   }
   //TODO display remaining distance
 };
@@ -79,11 +76,11 @@ let handleTreasureHuntMessage = async msg => {
       distance : poiSolution.d,
       direction : getDirection(lastPoi.direction)
     }
-    console.log(mapToGo);
+    console.log(`Position indice : ${mapToGo.posX},${mapToGo.posY}`.yellow);
+    console.log(`Distance : ${mapToGo.distance} ${mapToGo.direction}`.magenta);
     npcIdToFind = null;
-    spawn("./notifier/SnoreToast.exe", ["-t", "Next Indice", "-m", `x: ${mapToGo.posX} y: ${mapToGo.posY} distance: ${mapToGo.distance} ${mapToGo.direction}`, "-s", "Notification.Default"]);
   } else if (lastPoi.__type__ === "TreasureHuntStepFollowDirectionToHint"){
-    console.log("We're looking for a phorreur");
+    console.log("We're looking for a phorreur".yellow);
     npcIdToFind = lastPoi.npcId;
     mapToGo = null;
   } else if (lastPoi.__type__ === "TreasureHuntStepFight"){
@@ -108,10 +105,10 @@ let dispatcher = {
 
 let getPoiSolution = async (startMap, poiId, directionId) => {
   let poiLabel = await getPoiLabel(poiId);
-  console.log("Looking for" + poiLabel);
-  console.log(startMap);
-  console.log(poiId);
-  console.log(directionId);
+  console.log("Looking for " + poiLabel);
+  // console.log(startMap);
+  // console.log(poiId);
+  // console.log(directionId);
   const response = await axios.get(
     `https://dofus-map.com/huntTool/getData.php?x=${startMap.posX}&y=${
       startMap.posY
@@ -121,7 +118,7 @@ let getPoiSolution = async (startMap, poiId, directionId) => {
   //workaround because ids dont match entirely
   dofusHuntPoiId = indicesLoader.getInvertedIndices()[poiLabel];
   console.log(`dofusHuntPoiId: ${dofusHuntPoiId}`);
-  console.log(...hints);
+  // console.log(...hints);
   return hints.find(poiInfo => poiInfo.n == dofusHuntPoiId);
 };
 

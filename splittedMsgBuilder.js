@@ -19,7 +19,7 @@ module.exports = {
     },
     tryAppendMsg : function(msg){
         // console.debug("Trying to append msg");
-        console.log(`length after concat: ${Buffer.byteLength(splittedMsg.concat(msg), "hex")} vs totalLength expected: ${totalLength}`);
+        // console.log(`length after concat: ${Buffer.byteLength(splittedMsg.concat(msg), "hex")} vs totalLength expected: ${totalLength}`);
         splittedMsg = splittedMsg.concat(msg);
         return splittedMsg;
     },

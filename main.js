@@ -63,10 +63,14 @@ let startHelper = () => {
       if (msgId != 226) console.log(decodedMessage);
       treasureHelper.handleData(decodedMessage);
     }
-  });
-
-};
-
+    let msgId = payloadReader.readMsgId(dataPayload);
+    if (!msgIds.includes(msgId)) return;
+    let context = getContext(srcport);
+    let decodedMessage = await decodePayload(dataPayload, context);
+    // if (msgId != 226) console.log(decodedMessage);
+    treasureHelper.handleData(decodedMessage);
+  }
+});
 
 const MSGID_DATALEN_SIZE = 2;
 function handleSplitMsg(dataPayload) {
