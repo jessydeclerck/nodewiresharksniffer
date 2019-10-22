@@ -1,11 +1,15 @@
 const helper = require("./main");
 
+let helperEventHandler = helper.helperEmitter;
+
+helperEventHandler.on("helperStarted", data => {
+  console.log("Helper started event detected");
+  console.log(data);
+});
+
 helper.startHelper();
-setTimeout(() => {
-  console.log("stopping helper");
-  helper.stopHelper();
-  setTimeout(() => {
-    console.log("Restarting helper");
-    helper.startHelper();
-  }, 2000);
-}, 3000);
+
+// test.stdout.on("error", error=>{
+//     console.log("error recevied");
+// })
+// console.log(test);

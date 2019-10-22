@@ -8,15 +8,19 @@ const JSONStream = require("JSONStream");
 const indicesLoader = require("./indicesLoader");
 const readline = require("readline");
 const path = require("path");
+const { EventEmitter } = require("events");
+
+let helperEmitter = new EventEmitter();
 
 let snifferProcess;
 
 let stopHelper = () => {
-  if(snifferProcess){
+  if (snifferProcess) {
     process.stdin.pause();
     snifferProcess.kill();
+    helperEmitter.emit("helperStoped", "helper process has been stopped");
   }
-}
+};
 
 let startHelper = () => {
   let stream = JSONStream.parse();
@@ -51,7 +55,6 @@ let startHelper = () => {
     let srcport = data["srcport"];
     let dataPayload = data["payload"];
     if (dataPayload) {
-      // let dataPayload = payload[0].replace(/:/g, "");
       if (splittedMsgBuilder.isSplittedMsgWaiting()) {
         dataPayload = splittedMsgBuilder.tryAppendMsg(dataPayload);
         if (
@@ -73,6 +76,7 @@ let startHelper = () => {
       treasureHelper.handleData(decodedMessage);
     }
   });
+  helperEmitter.emit("helperStarted", "test emitter");
 };
 
 const MSGID_DATALEN_SIZE = 2;
@@ -113,6 +117,7 @@ function getContext(srcport) {
 }
 
 module.exports = {
+  helperEmitter: helperEmitter,
   startHelper: startHelper,
   stopHelper: stopHelper,
   testModule: () => console.log("module works")
