@@ -14,47 +14,33 @@ let helperEmitter = new EventEmitter();
 
 let snifferProcess;
 
-let stopHelper = () => {
-  if (snifferProcess) {
-    process.stdin.pause();
-    snifferProcess.kill();
-    helperEmitter.emit("helperStoped", "helper process has been stopped");
+let rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.pause();
+
+let interfaceStream = JSONStream.parse();
+
+interfaceStream.on("data", msg => {
+  switch (msg.type) {
+    case "sniffer.InterfaceInfo":
+      helperEmitter.emit("newInterface", msg);
+      break;
+    case "sniffer.StdinRequest":
+      helperEmitter.emit("newStdinRequest", msg);
+      break;
   }
-};
+});
 
-let startHelper = () => {
-  let stream = JSONStream.parse();
-  indicesLoader.loadIndices();
-  snifferProcess = spawn(path.join(__dirname, "sniffer", "sniffer.exe"));
+let dataStream = JSONStream.parse();
 
-  snifferProcess.stdout.pipe(process.stdout);
-
-  let rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
-
-  rl.on("line", function(line) {
-    if (isNaN(parseInt(line))) {
-      console.log("Please enter a number : ");
-      return;
-    }
-    snifferProcess.stdin.write(parseInt(line) + "\n");
-    rl.removeAllListeners();
-    snifferProcess.stdout.on("data", data => {
-      if (data.includes("Listening")) {
-        console.log({ info: "Redirecting sniffer stdout..." });
-        snifferProcess.stdout.unpipe(process.stdout);
-        snifferProcess.stdout.pipe(stream);
-        snifferProcess.removeAllListeners();
-      }
-    });
-  });
-
-  stream.on("data", async data => {
-    let srcport = data["srcport"];
-    let dataPayload = data["payload"];
-    if (dataPayload) {
+dataStream.on("data", async data => {
+  let srcport = data["srcport"];
+  let dataPayload = data["payload"];
+  if (dataPayload) {
+    try {
       if (splittedMsgBuilder.isSplittedMsgWaiting()) {
         dataPayload = splittedMsgBuilder.tryAppendMsg(dataPayload);
         if (
@@ -74,8 +60,41 @@ let startHelper = () => {
       let decodedMessage = await decodePayload(dataPayload, context);
       // if (msgId != 226) console.log(decodedMessage);
       treasureHelper.handleData(decodedMessage);
+    } catch (err) {
+      console.log("parsing error");
+    }
+  }
+});
+
+rl.on("line", function(line) {
+  if (isNaN(parseInt(line))) {
+    console.log("Please enter a number : ");
+    return;
+  }
+  snifferProcess.stdin.write(parseInt(line) + "\n");
+  rl.removeAllListeners();
+  snifferProcess.stdout.on("data", data => {
+    if (data.includes("Listening")) {
+      console.log({ info: "Redirecting sniffer stdout..." });
+      snifferProcess.stdout.unpipe(interfaceStream);
+      snifferProcess.stdout.pipe(dataStream);
+      snifferProcess.removeAllListeners();
     }
   });
+});
+
+let stopHelper = () => {
+  if (snifferProcess) {
+    process.stdin.pause();
+    snifferProcess.kill();
+    helperEmitter.emit("helperStopped", "helper process has been stopped");
+  }
+};
+
+let startHelper = () => {
+  indicesLoader.loadIndices();
+  snifferProcess = spawn(path.join(__dirname, "sniffer", "sniffer.exe"));
+  snifferProcess.stdout.pipe(interfaceStream);
   helperEmitter.emit("helperStarted", "test emitter");
 };
 
@@ -120,5 +139,8 @@ module.exports = {
   helperEmitter: helperEmitter,
   startHelper: startHelper,
   stopHelper: stopHelper,
+  selectInterface: interfaceNumber => {
+    if (rl) rl.write(interfaceNumber + "\n");
+  },
   testModule: () => console.log("module works")
 };
