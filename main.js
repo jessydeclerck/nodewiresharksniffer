@@ -11,6 +11,7 @@ const path = require("path");
 const { EventEmitter } = require("events");
 
 let helperEmitter = new EventEmitter();
+treasureHelper.setEventEmitter(helperEmitter);
 
 let snifferProcess;
 

@@ -9,8 +9,13 @@ module.exports = {
     msgType = msg.__type__;
     // console.log(msgType);
     dispatcher[msgType](msg);
+  },
+  setEventEmitter: (eventEmitter) => {
+    helperEventEmitter = eventEmitter;
   }
 };
+
+let helperEventEmitter;
 
 const labelBaseUri = "http://vps408293.ovh.net:8080";
 
