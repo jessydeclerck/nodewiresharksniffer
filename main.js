@@ -9,10 +9,19 @@ const indicesLoader = require("./indicesLoader");
 const readline = require("readline");
 const path = require("path");
 
+let snifferProcess;
+
+let stopHelper = () => {
+  if(snifferProcess){
+    process.stdin.pause();
+    snifferProcess.kill();
+  }
+}
+
 let startHelper = () => {
   let stream = JSONStream.parse();
   indicesLoader.loadIndices();
-  let snifferProcess = spawn(path.join(__dirname,"sniffer", "sniffer.exe"));
+  snifferProcess = spawn(path.join(__dirname, "sniffer", "sniffer.exe"));
 
   snifferProcess.stdout.pipe(process.stdout);
 
@@ -30,7 +39,7 @@ let startHelper = () => {
     rl.removeAllListeners();
     snifferProcess.stdout.on("data", data => {
       if (data.includes("Listening")) {
-        console.log("Redirecting sniffer stdout...");
+        console.log({ info: "Redirecting sniffer stdout..." });
         snifferProcess.stdout.unpipe(process.stdout);
         snifferProcess.stdout.pipe(stream);
         snifferProcess.removeAllListeners();
@@ -63,7 +72,8 @@ let startHelper = () => {
       // if (msgId != 226) console.log(decodedMessage);
       treasureHelper.handleData(decodedMessage);
     }
-});
+  });
+};
 
 const MSGID_DATALEN_SIZE = 2;
 function handleSplitMsg(dataPayload) {
@@ -104,5 +114,6 @@ function getContext(srcport) {
 
 module.exports = {
   startHelper: startHelper,
+  stopHelper: stopHelper,
   testModule: () => console.log("module works")
-}
+};
